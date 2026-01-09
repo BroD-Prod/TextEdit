@@ -1,0 +1,3 @@
+/Users/brodyroth/VSCode/TextEdit/build/CMakeFiles/TextEdit.dir
+/Users/brodyroth/VSCode/TextEdit/build/CMakeFiles/edit_cache.dir
+/Users/brodyroth/VSCode/TextEdit/build/CMakeFiles/rebuild_cache.dir
