@@ -7,21 +7,21 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "OpenGL::GL::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-OpenGL__GL-Debug-2af15312b620728a198d.json",
+					"jsonFile" : "target-OpenGL__GL-f7fc049dc8deb66927f4.json",
 					"name" : "OpenGL::GL",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "OpenGL::GLU::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-OpenGL__GLU-Debug-7354125b20bb46ea8bff.json",
+					"jsonFile" : "target-OpenGL__GLU-920def722ebbba5db8fa.json",
 					"name" : "OpenGL::GLU",
 					"projectIndex" : 0
 				},
 				{
 					"directoryIndex" : 0,
 					"id" : "X11::Xutil::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-X11__Xutil-Debug-bc008e608ead098756cb.json",
+					"jsonFile" : "target-X11__Xutil-8ec72cc9230e19300ac2.json",
 					"name" : "X11::Xutil",
 					"projectIndex" : 0
 				}
@@ -36,7 +36,7 @@
 						2
 					],
 					"build" : ".",
-					"jsonFile" : "directory-.-Debug-9ad1a58d4644cf6543fa.json",
+					"jsonFile" : "directory-.-9ad1a58d4644cf6543fa.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.10"
@@ -49,7 +49,7 @@
 					]
 				}
 			],
-			"name" : "Debug",
+			"name" : "",
 			"projects" : 
 			[
 				{
@@ -75,7 +75,7 @@
 				{
 					"directoryIndex" : 0,
 					"id" : "TextEdit::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-TextEdit-Debug-a3c0f91103589f2783c4.json",
+					"jsonFile" : "target-TextEdit-cf6c607490f0ae2dd14d.json",
 					"name" : "TextEdit",
 					"projectIndex" : 0
 				}

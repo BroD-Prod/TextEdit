@@ -1,7 +1,7 @@
 [
 {
   "directory": "/Users/brodyroth/VSCode/TextEdit/build",
-  "command": "/opt/homebrew/bin/aarch64-apple-darwin23-g++-14  -I/opt/homebrew/include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks -g -arch arm64 -o CMakeFiles/TextEdit.dir/main.cpp.o -c /Users/brodyroth/VSCode/TextEdit/main.cpp",
+  "command": "/opt/homebrew/bin/aarch64-apple-darwin23-g++-14  -I/opt/homebrew/include -F/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks  -arch arm64 -o CMakeFiles/TextEdit.dir/main.cpp.o -c /Users/brodyroth/VSCode/TextEdit/main.cpp",
   "file": "/Users/brodyroth/VSCode/TextEdit/main.cpp",
   "output": "CMakeFiles/TextEdit.dir/main.cpp.o"
 }

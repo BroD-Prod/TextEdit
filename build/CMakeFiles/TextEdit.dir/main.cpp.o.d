@@ -213,4 +213,29 @@ CMakeFiles/TextEdit.dir/main.cpp.o: \
  /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/basic_ios.tcc \
  /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/ostream.tcc \
  /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/istream \
- /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/istream.tcc
+ /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/istream.tcc \
+ /opt/homebrew/include/FL/Fl.H /opt/homebrew/include/FL/fl_config.h \
+ /opt/homebrew/include/FL/Fl_Export.H \
+ /opt/homebrew/include/FL/platform_types.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/dirent.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/dirent.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_ino_t.h \
+ /opt/homebrew/include/FL/fl_casts.H /opt/homebrew/include/FL/fl_utf8.h \
+ /opt/homebrew/include/FL/Fl_Export.H /opt/homebrew/include/FL/fl_types.h \
+ /opt/homebrew/include/FL/fl_attr.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/stat.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_blkcnt_t.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_blksize_t.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_ino64_t.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_nlink_t.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_gid_t.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_s_ifmt.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_filesec_t.h \
+ /opt/homebrew/include/FL/Enumerations.H \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/string.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_rsize_t.h \
+ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/strings.h \
+ /opt/homebrew/include/FL/Fl_Window.H /opt/homebrew/include/FL/Fl_Group.H \
+ /opt/homebrew/include/FL/Fl_Widget.H /opt/homebrew/include/FL/Fl.H \
+ /opt/homebrew/include/FL/Fl_Bitmap.H /opt/homebrew/include/FL/Fl_Image.H \
+ /opt/homebrew/include/FL/Fl_Box.H /opt/homebrew/include/FL/Fl_Button.H

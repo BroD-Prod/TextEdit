@@ -29,6 +29,7 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/arm/signal.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/arm/types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/ctype.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/dirent.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/libkern/_OSByteOrder.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/libkern/arm/OSByteOrder.h \
@@ -49,6 +50,8 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/pthread/sched.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/runetype.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/stdlib.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/string.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/strings.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_endian.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_posix_availability.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_pthread/_pthread_attr_t.h \
@@ -64,11 +67,17 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_pthread/_pthread_types.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_symbol_aliasing.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_blkcnt_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_blksize_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_clock_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_ct_rune_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_dev_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_errno_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_filesec_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_gid_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_id_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_ino64_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_ino_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_int16_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_int32_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_int64_t.h \
@@ -77,10 +86,13 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_mach_port_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_mbstate_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_mode_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_nlink_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_null.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_off_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_pid_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_rsize_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_rune_t.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_s_ifmt.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_seek_set.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_sigaltstack.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_sigset_t.h \
@@ -101,10 +113,12 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_wint_t.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/appleapiopts.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/cdefs.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/dirent.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/errno.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/qos.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/resource.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/signal.h \
+  /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/stat.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/stdio.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/wait.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/time.h \
@@ -215,8 +229,44 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
   /opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/14/include-fixed/stdio.h \
   /opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/14/include/stdarg.h \
   /opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/14/include/stddef.h \
-  /opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/14/include/stdint.h
+  /opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/14/include/stdint.h \
+  /opt/homebrew/include/FL/Enumerations.H \
+  /opt/homebrew/include/FL/Fl.H \
+  /opt/homebrew/include/FL/Fl_Bitmap.H \
+  /opt/homebrew/include/FL/Fl_Box.H \
+  /opt/homebrew/include/FL/Fl_Button.H \
+  /opt/homebrew/include/FL/Fl_Export.H \
+  /opt/homebrew/include/FL/Fl_Group.H \
+  /opt/homebrew/include/FL/Fl_Image.H \
+  /opt/homebrew/include/FL/Fl_Widget.H \
+  /opt/homebrew/include/FL/Fl_Window.H \
+  /opt/homebrew/include/FL/fl_attr.h \
+  /opt/homebrew/include/FL/fl_casts.H \
+  /opt/homebrew/include/FL/fl_config.h \
+  /opt/homebrew/include/FL/fl_types.h \
+  /opt/homebrew/include/FL/fl_utf8.h \
+  /opt/homebrew/include/FL/platform_types.h
 
+
+/opt/homebrew/include/FL/platform_types.h:
+
+/opt/homebrew/include/FL/fl_utf8.h:
+
+/opt/homebrew/include/FL/fl_types.h:
+
+/opt/homebrew/include/FL/fl_config.h:
+
+/opt/homebrew/include/FL/fl_casts.H:
+
+/opt/homebrew/include/FL/fl_attr.h:
+
+/opt/homebrew/include/FL/Fl_Group.H:
+
+/opt/homebrew/include/FL/Fl_Export.H:
+
+/opt/homebrew/include/FL/Fl_Bitmap.H:
+
+/opt/homebrew/include/FL/Fl.H:
 
 /opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/14/include/stdint.h:
 
@@ -238,9 +288,7 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/ios:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_pthread/_pthread_types.h:
-
-/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/ext/atomicity.h:
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/initializer_list:
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/ext/alloc_traits.h:
 
@@ -251,10 +299,6 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/debug/assertions.h:
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/cwctype:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/alloca.h:
-
-/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/cstdlib:
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/type_traits:
 
@@ -270,15 +314,7 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/version.h:
 
-/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/streambuf_iterator.h:
-
-/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/string_view.tcc:
-
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/streambuf.tcc:
-
-/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/streambuf:
-
-/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/stl_pair.h:
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/stl_iterator_base_types.h:
 
@@ -302,11 +338,13 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/nested_exception.h:
 
-/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/cerrno:
-
-/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/memoryfwd.h:
-
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/locale_facets.h:
+
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/string_view.tcc:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_nlink_t.h:
+
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/streambuf_iterator.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_mbstate_t.h:
 
@@ -332,15 +370,19 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/concept_check.h:
 
-/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/basic_string.tcc:
-
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/basic_ios.h:
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/stl_construct.h:
 
+/opt/homebrew/include/FL/Enumerations.H:
+
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/exception_defines.h:
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/backward/binders.h:
+
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/memoryfwd.h:
+
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/cerrno:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/resource.h:
 
@@ -349,6 +391,8 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/tuple:
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/aarch64-apple-darwin23/bits/gthr.h:
+
+/opt/homebrew/include/FL/Fl_Image.H:
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/uses_allocator_args.h:
 
@@ -359,12 +403,6 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/cpp_type_traits.h:
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/aarch64-apple-darwin23/bits/error_constants.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/time.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/_ctermid.h:
-
-/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/iosfwd:
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/aarch64-apple-darwin23/bits/c++locale.h:
 
@@ -394,39 +432,53 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/signal.h:
 
-/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/aarch64-apple-darwin23/bits/ctype_base.h:
-
-/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/ext/string_conversions.h:
-
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/istream:
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/new_allocator.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/errno.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/dirent.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_pthread/_pthread_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/cdefs.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_timeval.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_uintptr_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/qos.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_u_int8_t.h:
+
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/cstdio:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_blkcnt_t.h:
+
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/std_abs.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_ucontext.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_u_int64_t.h:
+
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/ext/numeric_traits.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_u_int32_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/wchar.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_uid_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_u_int16_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/machine/types.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_va_list.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/wchar.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_timeval.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_u_int16_t.h:
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/ostream.tcc:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_uid_t.h:
-
-/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/cstdio:
-
-/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/std_abs.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_u_int64_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_ucontext.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_time_t.h:
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/ext/type_traits.h:
 
@@ -440,6 +492,16 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_sigaltstack.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/pthread.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_s_ifmt.h:
+
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/ext/string_conversions.h:
+
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/aarch64-apple-darwin23/bits/ctype_base.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_rsize_t.h:
+
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/stl_algobase.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/pthread/qos.h:
@@ -449,6 +511,18 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_pid_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_null.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/AvailabilityVersions.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/_types.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/strings.h:
+
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/iosfwd:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/time.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/_ctermid.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/_locale.h:
 
@@ -468,19 +542,15 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_int32_t.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_u_int32_t.h:
-
-/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/ext/numeric_traits.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/stdlib.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_errno_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_id_t.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/_ctype.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_filesec_t.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_uintptr_t.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/_ctype.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_pthread/_pthread_rwlock_t.h:
 
@@ -488,19 +558,21 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_clock_t.h:
 
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/basic_string.tcc:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_blksize_t.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_symbol_aliasing.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/machine/endian.h:
-
-/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/basic_string.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/arm/_types.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/_wctype.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/arm/_types.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_gid_t.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_pthread/_pthread_key_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_ino_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h:
 
@@ -512,11 +584,25 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_endian.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/machine/endian.h:
+
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/basic_string.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_pthread/_pthread_mutex_t.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/malloc/_ptrcheck.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/string.h:
+
 /Users/brodyroth/VSCode/TextEdit/main.cpp:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/runetype.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/malloc/_ptrcheck.h:
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/ext/atomicity.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_pthread/_pthread_types.h:
+
+/opt/homebrew/include/FL/Fl_Box.H:
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/memory_resource.h:
 
@@ -538,12 +624,6 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/malloc/_malloc.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/pthread.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/qos.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_u_int8_t.h:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/mach/machine/_structs.h:
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/ptr_traits.h:
@@ -562,6 +642,8 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/mach/arm/_structs.h:
 
+/opt/homebrew/include/FL/Fl_Widget.H:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types.h:
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/invoke.h:
@@ -569,8 +651,6 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/libkern/arm/OSByteOrder.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_dev_t.h:
-
-/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/initializer_list:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/errno.h:
 
@@ -582,15 +662,17 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/functional_hash.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_ino64_t.h:
+
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/char_traits.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/arm/endian.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/arm/arch.h:
 
-/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/ostream.tcc:
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/_types/_wctype_t.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_time_t.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/dirent.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/_types/_intmax_t.h:
 
@@ -600,11 +682,15 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_int8_t.h:
 
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/cstdlib:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/alloca.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/_types/_uintmax_t.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/_types/_wctype_t.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/stat.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_wchar_t.h:
+/opt/homebrew/include/FL/Fl_Window.H:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/_types/_wctrans_t.h:
 
@@ -612,15 +698,17 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/_types/_uint8_t.h:
 
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/streambuf:
+
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/stl_pair.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/_types/_uint64_t.h:
+
+/opt/homebrew/include/FL/Fl_Button.H:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/__wctype.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_ssize_t.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/AvailabilityVersions.h:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/_types.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/_types/_uint32_t.h:
 
@@ -635,6 +723,8 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_off_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/_stdio.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_wchar_t.h:
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/pstl/pstl_config.h:
 

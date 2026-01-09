@@ -28789,3 +28789,1977 @@ events:
         - "/Network/Library/Frameworks"
         - "/System/Library/Frameworks"
 ...
+
+---
+events:
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeDetermineSystem.cmake:212 (message)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      The system is: Darwin - 24.6.0 - arm64
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCCompilerId.c.in"
+    candidate_directories:
+      - "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/"
+    found: "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeCCompilerId.c.in"
+    search_context:
+      ENV{PATH}:
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeDetermineCCompiler.cmake:122 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+      Compiler: /opt/homebrew/bin/aarch64-apple-darwin23-gcc-14 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+      
+      The C compiler identification is GNU, found in:
+        /Users/brodyroth/VSCode/TextEdit/build/CMakeFiles/4.2.0/CompilerIdC/a.out
+      
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:462 (find_file)"
+      - "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:500 (CMAKE_DETERMINE_COMPILER_ID_WRITE)"
+      - "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:8 (CMAKE_DETERMINE_COMPILER_ID_BUILD)"
+      - "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    mode: "file"
+    variable: "src_in"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "CMakeCXXCompilerId.cpp.in"
+    candidate_directories:
+      - "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/"
+    found: "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeCXXCompilerId.cpp.in"
+    search_context:
+      ENV{PATH}:
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:17 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeDetermineCompilerId.cmake:64 (__determine_compiler_id_test)"
+      - "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeDetermineCXXCompiler.cmake:125 (CMAKE_DETERMINE_COMPILER_ID)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+      Compiler: /opt/homebrew/bin/aarch64-apple-darwin23-g++-14 
+      Build flags: 
+      Id flags:  
+      
+      The output was:
+      0
+      
+      
+      Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+      
+      The CXX compiler identification is GNU, found in:
+        /Users/brodyroth/VSCode/TextEdit/build/CMakeFiles/4.2.0/CompilerIdCXX/a.out
+      
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting C compiler ABI info"
+    directories:
+      source: "/Users/brodyroth/VSCode/TextEdit/build/CMakeFiles/CMakeScratch/TryCompile-JJ2iRQ"
+      binary: "/Users/brodyroth/VSCode/TextEdit/build/CMakeFiles/CMakeScratch/TryCompile-JJ2iRQ"
+    cmakeVariables:
+      CMAKE_C_FLAGS: ""
+      CMAKE_C_FLAGS_DEBUG: "-g"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "CMAKE_C_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/brodyroth/VSCode/TextEdit/build/CMakeFiles/CMakeScratch/TryCompile-JJ2iRQ'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5eaf4/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_5eaf4.dir/build.make CMakeFiles/cmTC_5eaf4.dir/build
+        Building C object CMakeFiles/cmTC_5eaf4.dir/CMakeCCompilerABI.c.o
+        /opt/homebrew/bin/aarch64-apple-darwin23-gcc-14   -arch arm64   -v -Wl,-v -o CMakeFiles/cmTC_5eaf4.dir/CMakeCCompilerABI.c.o -c /Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeCCompilerABI.c
+        Using built-in specs.
+        COLLECT_GCC=/opt/homebrew/bin/aarch64-apple-darwin23-gcc-14
+        Target: aarch64-apple-darwin23
+        Configured with: ../configure --prefix=/opt/homebrew/opt/gcc --libdir=/opt/homebrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran,m2 --program-suffix=-14 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 14.2.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --build=aarch64-apple-darwin23 --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.0 (Homebrew GCC 14.2.0) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5eaf4.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=15.0.0' '-asm_macosx_version_min=15.0' '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_5eaf4.dir/'
+         /opt/homebrew/Cellar/gcc/14.2.0/bin/../libexec/gcc/aarch64-apple-darwin23/14/cc1 -quiet -v -iprefix /opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/ -D__DYNAMIC__ /Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeCCompilerABI.c -fPIC -quiet -dumpdir CMakeFiles/cmTC_5eaf4.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mmacosx-version-min=15.0.0 -mcpu=apple-m1 -mlittle-endian -mabi=lp64 -version -o /var/folders/yf/1x5vz5zd5pn0v0zjj0xv1bdc0000gn/T//ccODPVPC.s
+        GNU C17 (Homebrew GCC 14.2.0) version 14.2.0 (aarch64-apple-darwin23)
+        	compiled by GNU C version 14.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.27-GMP
+        
+        warning: MPFR header version 4.2.1 differs from library version 4.2.2.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/../../../../../../aarch64-apple-darwin23/include"
+        ignoring duplicate directory "/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin23/14/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/local/include"
+        ignoring duplicate directory "/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin23/14/include-fixed"
+        ignoring nonexistent directory "/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin23/14/../../../../../../aarch64-apple-darwin23/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/include
+         /opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/include-fixed
+         /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/System/Library/Frameworks
+        End of search list.
+        Compiler executable checksum: f04cddc3887ed66d0bccc982b0df008b
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5eaf4.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=15.0.0'  '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_5eaf4.dir/'
+         as -arch arm64 -v -mmacosx-version-min=15.0 -o CMakeFiles/cmTC_5eaf4.dir/CMakeCCompilerABI.c.o /var/folders/yf/1x5vz5zd5pn0v0zjj0xv1bdc0000gn/T//ccODPVPC.s
+        Apple clang version 17.0.0 (clang-1700.6.3.2)
+        Target: arm64-apple-darwin24.6.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1as -triple arm64-apple-macosx15.0.0 -target-sdk-version=26.2 -filetype obj -main-file-name ccODPVPC.s -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -fdebug-compilation-dir=/Users/brodyroth/VSCode/TextEdit/build/CMakeFiles/CMakeScratch/TryCompile-JJ2iRQ -dwarf-debug-producer "Apple clang version 17.0.0 (clang-1700.6.3.2)" -dwarf-version=5 -mrelocation-model pic -o CMakeFiles/cmTC_5eaf4.dir/CMakeCCompilerABI.c.o /var/folders/yf/1x5vz5zd5pn0v0zjj0xv1bdc0000gn/T//ccODPVPC.s
+        COMPILER_PATH=/opt/homebrew/Cellar/gcc/14.2.0/bin/../libexec/gcc/aarch64-apple-darwin23/14/:/opt/homebrew/Cellar/gcc/14.2.0/bin/../libexec/gcc/
+        LIBRARY_PATH=/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/:/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/:/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5eaf4.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=15.0.0'  '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_5eaf4.dir/CMakeCCompilerABI.c.'
+        Linking C executable cmTC_5eaf4
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5eaf4.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/opt/homebrew/bin/aarch64-apple-darwin23-gcc-14
+        COLLECT_LTO_WRAPPER=/opt/homebrew/Cellar/gcc/14.2.0/bin/../libexec/gcc/aarch64-apple-darwin23/14/lto-wrapper
+        Target: aarch64-apple-darwin23
+        Configured with: ../configure --prefix=/opt/homebrew/opt/gcc --libdir=/opt/homebrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran,m2 --program-suffix=-14 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 14.2.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --build=aarch64-apple-darwin23 --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.0 (Homebrew GCC 14.2.0) 
+        COMPILER_PATH=/opt/homebrew/Cellar/gcc/14.2.0/bin/../libexec/gcc/aarch64-apple-darwin23/14/:/opt/homebrew/Cellar/gcc/14.2.0/bin/../libexec/gcc/
+        LIBRARY_PATH=/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/:/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/:/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5eaf4' '-mmacosx-version-min=15.0.0' '-asm_macosx_version_min=15.0' '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_5eaf4.'
+         /opt/homebrew/Cellar/gcc/14.2.0/bin/../libexec/gcc/aarch64-apple-darwin23/14/collect2 -demangle -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/ -dynamic -arch arm64 -platform_version macos 15.0.0 0.0 -o cmTC_5eaf4 -L/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14 -L/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc -L/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/../../.. -lemutls_w -lheapt_w -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_5eaf4.dir/CMakeCCompilerABI.c.o -lgcc -lSystem -no_compact_unwind -rpath @loader_path -rpath /opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/14 -rpath /opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc -rpath /opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current
+        collect2 version 14.2.0
+        /usr/bin/ld -demangle -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/ -dynamic -arch arm64 -platform_version macos 15.0.0 0.0 -o cmTC_5eaf4 -L/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14 -L/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc -L/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/../../.. -lemutls_w -lheapt_w -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_5eaf4.dir/CMakeCCompilerABI.c.o -lgcc -lSystem -no_compact_unwind -rpath @loader_path -rpath /opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/14 -rpath /opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc -rpath /opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current
+        @(#)PROGRAM:ld PROJECT:ld-1230.1
+        BUILD 06:36:05 Dec  2 2025
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
+        will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 17.0.0 (static support for 29, runtime is 29)
+        TAPI support using: Apple TAPI version 17.0.0 (tapi-1700.3.8)
+        Library search paths:
+        	/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/14
+        	/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc
+        	/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/lib
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/lib/swift
+        Framework search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/System/Library/Frameworks
+        /opt/homebrew/bin/aarch64-apple-darwin23-gcc-14  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_5eaf4.dir/CMakeCCompilerABI.c.o -o cmTC_5eaf4
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:122 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "arm64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/include]
+          add: [/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/include-fixed]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/System/Library/Frameworks]
+        end of search list found
+        collapse include dir [/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/include] ==> [/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/14/include]
+        collapse include dir [/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/include-fixed] ==> [/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/14/include-fixed]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/System/Library/Frameworks] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/System/Library/Frameworks]
+        implicit include dirs: [/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/14/include;/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/14/include-fixed;/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include;/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed C implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/Users/brodyroth/VSCode/TextEdit/build/CMakeFiles/CMakeScratch/TryCompile-JJ2iRQ']
+        ignore line: []
+        ignore line: [Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_5eaf4/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_5eaf4.dir/build.make CMakeFiles/cmTC_5eaf4.dir/build]
+        ignore line: [Building C object CMakeFiles/cmTC_5eaf4.dir/CMakeCCompilerABI.c.o]
+        ignore line: [/opt/homebrew/bin/aarch64-apple-darwin23-gcc-14   -arch arm64   -v -Wl -v -o CMakeFiles/cmTC_5eaf4.dir/CMakeCCompilerABI.c.o -c /Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeCCompilerABI.c]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/opt/homebrew/bin/aarch64-apple-darwin23-gcc-14]
+        ignore line: [Target: aarch64-apple-darwin23]
+        ignore line: [Configured with: ../configure --prefix=/opt/homebrew/opt/gcc --libdir=/opt/homebrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c c++ objc obj-c++ fortran m2 --program-suffix=-14 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 14.2.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --build=aarch64-apple-darwin23 --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.0 (Homebrew GCC 14.2.0) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5eaf4.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=15.0.0' '-asm_macosx_version_min=15.0' '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_5eaf4.dir/']
+        ignore line: [ /opt/homebrew/Cellar/gcc/14.2.0/bin/../libexec/gcc/aarch64-apple-darwin23/14/cc1 -quiet -v -iprefix /opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/ -D__DYNAMIC__ /Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeCCompilerABI.c -fPIC -quiet -dumpdir CMakeFiles/cmTC_5eaf4.dir/ -dumpbase CMakeCCompilerABI.c.c -dumpbase-ext .c -mmacosx-version-min=15.0.0 -mcpu=apple-m1 -mlittle-endian -mabi=lp64 -version -o /var/folders/yf/1x5vz5zd5pn0v0zjj0xv1bdc0000gn/T//ccODPVPC.s]
+        ignore line: [GNU C17 (Homebrew GCC 14.2.0) version 14.2.0 (aarch64-apple-darwin23)]
+        ignore line: [	compiled by GNU C version 14.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [warning: MPFR header version 4.2.1 differs from library version 4.2.2.]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/../../../../../../aarch64-apple-darwin23/include"]
+        ignore line: [ignoring duplicate directory "/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin23/14/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin23/14/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin23/14/../../../../../../aarch64-apple-darwin23/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/include]
+        ignore line: [ /opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/include-fixed]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/System/Library/Frameworks]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: f04cddc3887ed66d0bccc982b0df008b]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5eaf4.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=15.0.0'  '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_5eaf4.dir/']
+        ignore line: [ as -arch arm64 -v -mmacosx-version-min=15.0 -o CMakeFiles/cmTC_5eaf4.dir/CMakeCCompilerABI.c.o /var/folders/yf/1x5vz5zd5pn0v0zjj0xv1bdc0000gn/T//ccODPVPC.s]
+        ignore line: [Apple clang version 17.0.0 (clang-1700.6.3.2)]
+        ignore line: [Target: arm64-apple-darwin24.6.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1as -triple arm64-apple-macosx15.0.0 -target-sdk-version=26.2 -filetype obj -main-file-name ccODPVPC.s -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -fdebug-compilation-dir=/Users/brodyroth/VSCode/TextEdit/build/CMakeFiles/CMakeScratch/TryCompile-JJ2iRQ -dwarf-debug-producer "Apple clang version 17.0.0 (clang-1700.6.3.2)" -dwarf-version=5 -mrelocation-model pic -o CMakeFiles/cmTC_5eaf4.dir/CMakeCCompilerABI.c.o /var/folders/yf/1x5vz5zd5pn0v0zjj0xv1bdc0000gn/T//ccODPVPC.s]
+        ignore line: [COMPILER_PATH=/opt/homebrew/Cellar/gcc/14.2.0/bin/../libexec/gcc/aarch64-apple-darwin23/14/:/opt/homebrew/Cellar/gcc/14.2.0/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/:/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/:/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_5eaf4.dir/CMakeCCompilerABI.c.o' '-c' '-mmacosx-version-min=15.0.0'  '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_5eaf4.dir/CMakeCCompilerABI.c.']
+        ignore line: [Linking C executable cmTC_5eaf4]
+        ignore line: [/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5eaf4.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/opt/homebrew/bin/aarch64-apple-darwin23-gcc-14]
+        ignore line: [COLLECT_LTO_WRAPPER=/opt/homebrew/Cellar/gcc/14.2.0/bin/../libexec/gcc/aarch64-apple-darwin23/14/lto-wrapper]
+        ignore line: [Target: aarch64-apple-darwin23]
+        ignore line: [Configured with: ../configure --prefix=/opt/homebrew/opt/gcc --libdir=/opt/homebrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c c++ objc obj-c++ fortran m2 --program-suffix=-14 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 14.2.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --build=aarch64-apple-darwin23 --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.0 (Homebrew GCC 14.2.0) ]
+        ignore line: [COMPILER_PATH=/opt/homebrew/Cellar/gcc/14.2.0/bin/../libexec/gcc/aarch64-apple-darwin23/14/:/opt/homebrew/Cellar/gcc/14.2.0/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/:/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/:/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_5eaf4' '-mmacosx-version-min=15.0.0' '-asm_macosx_version_min=15.0' '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_5eaf4.']
+        link line: [ /opt/homebrew/Cellar/gcc/14.2.0/bin/../libexec/gcc/aarch64-apple-darwin23/14/collect2 -demangle -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/ -dynamic -arch arm64 -platform_version macos 15.0.0 0.0 -o cmTC_5eaf4 -L/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14 -L/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc -L/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/../../.. -lemutls_w -lheapt_w -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_5eaf4.dir/CMakeCCompilerABI.c.o -lgcc -lSystem -no_compact_unwind -rpath @loader_path -rpath /opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/14 -rpath /opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc -rpath /opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current]
+          arg [/opt/homebrew/Cellar/gcc/14.2.0/bin/../libexec/gcc/aarch64-apple-darwin23/14/collect2] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/] ==> ignore
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [15.0.0] ==> ignore
+          arg [0.0] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_5eaf4] ==> ignore
+          arg [-L/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14] ==> dir [/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14]
+          arg [-L/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc] ==> dir [/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc]
+          arg [-L/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/../../..] ==> dir [/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/../../..]
+          arg [-lemutls_w] ==> lib [emutls_w]
+          arg [-lheapt_w] ==> lib [heapt_w]
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_5eaf4.dir/CMakeCCompilerABI.c.o] ==> ignore
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lSystem] ==> lib [System]
+          arg [-no_compact_unwind] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [@loader_path] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/14] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current] ==> ignore
+        ignore line: [collect2 version 14.2.0]
+        ignore line: [/usr/bin/ld -demangle -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/ -dynamic -arch arm64 -platform_version macos 15.0.0 0.0 -o cmTC_5eaf4 -L/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14 -L/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc -L/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/../../.. -lemutls_w -lheapt_w -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_5eaf4.dir/CMakeCCompilerABI.c.o -lgcc -lSystem -no_compact_unwind -rpath @loader_path -rpath /opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/14 -rpath /opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc -rpath /opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current]
+        linker tool for 'C': /usr/bin/ld
+        Library search paths: [;/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/14;/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc;/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current;/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/lib/swift]
+        Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/System/Library/Frameworks]
+        remove lib [System]
+        collapse library dir [/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14] ==> [/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/14]
+        collapse library dir [/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc] ==> [/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc]
+        collapse library dir [/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/../../..] ==> [/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current]
+        collapse library dir [/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/14] ==> [/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/14]
+        collapse library dir [/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc] ==> [/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc]
+        collapse library dir [/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current] ==> [/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/lib]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/lib/swift] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/lib/swift]
+        collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/System/Library/Frameworks] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/System/Library/Frameworks]
+        implicit libs: [emutls_w;heapt_w;gcc]
+        implicit objs: []
+        implicit dirs: [/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/14;/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc;/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current;/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/lib/swift]
+        implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeTestCCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the C compiler's linker: "/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld PROJECT:ld-1230.1
+      BUILD 06:36:05 Dec  2 2025
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
+      will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+      LTO support using: LLVM version 17.0.0 (static support for 29, runtime is 29)
+      TAPI support using: Apple TAPI version 17.0.0 (tapi-1700.3.8)
+  -
+    kind: "try_compile-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:83 (try_compile)"
+      - "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    checks:
+      - "Detecting CXX compiler ABI info"
+    directories:
+      source: "/Users/brodyroth/VSCode/TextEdit/build/CMakeFiles/CMakeScratch/TryCompile-H109IN"
+      binary: "/Users/brodyroth/VSCode/TextEdit/build/CMakeFiles/CMakeScratch/TryCompile-H109IN"
+    cmakeVariables:
+      CMAKE_CXX_FLAGS: ""
+      CMAKE_CXX_FLAGS_DEBUG: "-g"
+      CMAKE_CXX_SCAN_FOR_MODULES: "OFF"
+      CMAKE_EXE_LINKER_FLAGS: ""
+      CMAKE_OSX_ARCHITECTURES: ""
+      CMAKE_OSX_DEPLOYMENT_TARGET: ""
+      CMAKE_OSX_SYSROOT: ""
+    buildResult:
+      variable: "CMAKE_CXX_ABI_COMPILED"
+      cached: true
+      stdout: |
+        Change Dir: '/Users/brodyroth/VSCode/TextEdit/build/CMakeFiles/CMakeScratch/TryCompile-H109IN'
+        
+        Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_030f8/fast
+        /Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_030f8.dir/build.make CMakeFiles/cmTC_030f8.dir/build
+        Building CXX object CMakeFiles/cmTC_030f8.dir/CMakeCXXCompilerABI.cpp.o
+        /opt/homebrew/bin/aarch64-apple-darwin23-g++-14   -arch arm64   -v -Wl,-v -o CMakeFiles/cmTC_030f8.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp
+        Using built-in specs.
+        COLLECT_GCC=/opt/homebrew/bin/aarch64-apple-darwin23-g++-14
+        Target: aarch64-apple-darwin23
+        Configured with: ../configure --prefix=/opt/homebrew/opt/gcc --libdir=/opt/homebrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran,m2 --program-suffix=-14 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 14.2.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --build=aarch64-apple-darwin23 --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.0 (Homebrew GCC 14.2.0) 
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_030f8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=15.0.0' '-asm_macosx_version_min=15.0' '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_030f8.dir/'
+         /opt/homebrew/Cellar/gcc/14.2.0/bin/../libexec/gcc/aarch64-apple-darwin23/14/cc1plus -quiet -v -iprefix /opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/ -D__DYNAMIC__ /Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -fPIC -quiet -dumpdir CMakeFiles/cmTC_030f8.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mmacosx-version-min=15.0.0 -mcpu=apple-m1 -mlittle-endian -mabi=lp64 -version -o /var/folders/yf/1x5vz5zd5pn0v0zjj0xv1bdc0000gn/T//ccbuSvBO.s
+        GNU C++17 (Homebrew GCC 14.2.0) version 14.2.0 (aarch64-apple-darwin23)
+        	compiled by GNU C version 14.2.0, GMP version 6.3.0, MPFR version 4.2.1, MPC version 1.3.1, isl version isl-0.27-GMP
+        
+        warning: MPFR header version 4.2.1 differs from library version 4.2.2.
+        GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072
+        ignoring nonexistent directory "/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/../../../../../../aarch64-apple-darwin23/include"
+        ignoring duplicate directory "/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin23/14/../../../../../../include/c++/14"
+        ignoring duplicate directory "/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin23/14/../../../../../../include/c++/14/aarch64-apple-darwin23"
+        ignoring duplicate directory "/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin23/14/../../../../../../include/c++/14/backward"
+        ignoring duplicate directory "/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin23/14/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/local/include"
+        ignoring duplicate directory "/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin23/14/include-fixed"
+        ignoring nonexistent directory "/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin23/14/../../../../../../aarch64-apple-darwin23/include"
+        ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/Library/Frameworks"
+        #include "..." search starts here:
+        #include <...> search starts here:
+         /opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/../../../../../../include/c++/14
+         /opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/../../../../../../include/c++/14/aarch64-apple-darwin23
+         /opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/../../../../../../include/c++/14/backward
+         /opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/include
+         /opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/include-fixed
+         /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include
+         /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/System/Library/Frameworks
+        End of search list.
+        Compiler executable checksum: a75830afbe2c14ab123cd4d63804ed46
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_030f8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=15.0.0'  '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_030f8.dir/'
+         as -arch arm64 -v -mmacosx-version-min=15.0 -o CMakeFiles/cmTC_030f8.dir/CMakeCXXCompilerABI.cpp.o /var/folders/yf/1x5vz5zd5pn0v0zjj0xv1bdc0000gn/T//ccbuSvBO.s
+        Apple clang version 17.0.0 (clang-1700.6.3.2)
+        Target: arm64-apple-darwin24.6.0
+        Thread model: posix
+        InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin
+         "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1as -triple arm64-apple-macosx15.0.0 -target-sdk-version=26.2 -filetype obj -main-file-name ccbuSvBO.s -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -fdebug-compilation-dir=/Users/brodyroth/VSCode/TextEdit/build/CMakeFiles/CMakeScratch/TryCompile-H109IN -dwarf-debug-producer "Apple clang version 17.0.0 (clang-1700.6.3.2)" -dwarf-version=5 -mrelocation-model pic -o CMakeFiles/cmTC_030f8.dir/CMakeCXXCompilerABI.cpp.o /var/folders/yf/1x5vz5zd5pn0v0zjj0xv1bdc0000gn/T//ccbuSvBO.s
+        COMPILER_PATH=/opt/homebrew/Cellar/gcc/14.2.0/bin/../libexec/gcc/aarch64-apple-darwin23/14/:/opt/homebrew/Cellar/gcc/14.2.0/bin/../libexec/gcc/
+        LIBRARY_PATH=/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/:/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/:/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_030f8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=15.0.0'  '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_030f8.dir/CMakeCXXCompilerABI.cpp.'
+        Linking CXX executable cmTC_030f8
+        /Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_030f8.dir/link.txt --verbose=1
+        Using built-in specs.
+        COLLECT_GCC=/opt/homebrew/bin/aarch64-apple-darwin23-g++-14
+        COLLECT_LTO_WRAPPER=/opt/homebrew/Cellar/gcc/14.2.0/bin/../libexec/gcc/aarch64-apple-darwin23/14/lto-wrapper
+        Target: aarch64-apple-darwin23
+        Configured with: ../configure --prefix=/opt/homebrew/opt/gcc --libdir=/opt/homebrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c,c++,objc,obj-c++,fortran,m2 --program-suffix=-14 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 14.2.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --build=aarch64-apple-darwin23 --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk
+        Thread model: posix
+        Supported LTO compression algorithms: zlib zstd
+        gcc version 14.2.0 (Homebrew GCC 14.2.0) 
+        COMPILER_PATH=/opt/homebrew/Cellar/gcc/14.2.0/bin/../libexec/gcc/aarch64-apple-darwin23/14/:/opt/homebrew/Cellar/gcc/14.2.0/bin/../libexec/gcc/
+        LIBRARY_PATH=/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/:/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/:/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/../../../
+        COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_030f8' '-mmacosx-version-min=15.0.0' '-asm_macosx_version_min=15.0' '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_030f8.'
+         /opt/homebrew/Cellar/gcc/14.2.0/bin/../libexec/gcc/aarch64-apple-darwin23/14/collect2 -demangle -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/ -dynamic -arch arm64 -platform_version macos 15.0.0 0.0 -o cmTC_030f8 -L/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14 -L/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc -L/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/../../.. -lemutls_w -lheapt_w -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_030f8.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lgcc -lSystem -no_compact_unwind -rpath @loader_path -rpath /opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/14 -rpath /opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc -rpath /opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current
+        collect2 version 14.2.0
+        /usr/bin/ld -demangle -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/ -dynamic -arch arm64 -platform_version macos 15.0.0 0.0 -o cmTC_030f8 -L/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14 -L/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc -L/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/../../.. -lemutls_w -lheapt_w -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_030f8.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lgcc -lSystem -no_compact_unwind -rpath @loader_path -rpath /opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/14 -rpath /opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc -rpath /opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current
+        @(#)PROGRAM:ld PROJECT:ld-1230.1
+        BUILD 06:36:05 Dec  2 2025
+        configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
+        will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+        LTO support using: LLVM version 17.0.0 (static support for 29, runtime is 29)
+        TAPI support using: Apple TAPI version 17.0.0 (tapi-1700.3.8)
+        Library search paths:
+        	/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/14
+        	/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc
+        	/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/lib
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/lib/swift
+        Framework search paths:
+        	/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/System/Library/Frameworks
+        /opt/homebrew/bin/aarch64-apple-darwin23-g++-14  -arch arm64 -Wl,-search_paths_first -Wl,-headerpad_max_install_names  -v -Wl,-v CMakeFiles/cmTC_030f8.dir/CMakeCXXCompilerABI.cpp.o -o cmTC_030f8
+        
+      exitCode: 0
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:122 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Effective list of requested architectures (possibly empty)  : ""
+      Effective list of architectures found in the ABI info binary: "arm64"
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:217 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit include dir info: rv=done
+        found start of include info
+        found start of implicit include info
+          add: [/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/../../../../../../include/c++/14]
+          add: [/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/../../../../../../include/c++/14/aarch64-apple-darwin23]
+          add: [/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/../../../../../../include/c++/14/backward]
+          add: [/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/include]
+          add: [/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/include-fixed]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include]
+          add: [/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/System/Library/Frameworks]
+        end of search list found
+        collapse include dir [/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/../../../../../../include/c++/14] ==> [/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14]
+        collapse include dir [/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/../../../../../../include/c++/14/aarch64-apple-darwin23] ==> [/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/aarch64-apple-darwin23]
+        collapse include dir [/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/../../../../../../include/c++/14/backward] ==> [/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/backward]
+        collapse include dir [/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/include] ==> [/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/14/include]
+        collapse include dir [/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/include-fixed] ==> [/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/14/include-fixed]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include]
+        collapse include dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/System/Library/Frameworks] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/System/Library/Frameworks]
+        implicit include dirs: [/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14;/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/aarch64-apple-darwin23;/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/backward;/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/14/include;/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/14/include-fixed;/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include;/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:253 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Parsed CXX implicit link information:
+        link line regex: [^( *|.*[/\\])(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\\]+-)?ld|collect2)[^/\\]*( |$)]
+        linker tool regex: [^[ 	]*(->|"|[0-9]+>[ 	-]*Build:[ 	0-9]+ ms[ 	]*)?[ 	]*(([^"]*[/\\])?(ld[0-9]*(|\\.[a-rt-z][a-z]*|\\.s[a-np-z][a-z]*|\\.so[a-z]+)))("|,| |$)]
+        ignore line: [Change Dir: '/Users/brodyroth/VSCode/TextEdit/build/CMakeFiles/CMakeScratch/TryCompile-H109IN']
+        ignore line: []
+        ignore line: [Run Build Command(s): /Applications/CMake.app/Contents/bin/cmake -E env VERBOSE=1 /usr/bin/make -f Makefile cmTC_030f8/fast]
+        ignore line: [/Applications/Xcode.app/Contents/Developer/usr/bin/make  -f CMakeFiles/cmTC_030f8.dir/build.make CMakeFiles/cmTC_030f8.dir/build]
+        ignore line: [Building CXX object CMakeFiles/cmTC_030f8.dir/CMakeCXXCompilerABI.cpp.o]
+        ignore line: [/opt/homebrew/bin/aarch64-apple-darwin23-g++-14   -arch arm64   -v -Wl -v -o CMakeFiles/cmTC_030f8.dir/CMakeCXXCompilerABI.cpp.o -c /Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/opt/homebrew/bin/aarch64-apple-darwin23-g++-14]
+        ignore line: [Target: aarch64-apple-darwin23]
+        ignore line: [Configured with: ../configure --prefix=/opt/homebrew/opt/gcc --libdir=/opt/homebrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c c++ objc obj-c++ fortran m2 --program-suffix=-14 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 14.2.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --build=aarch64-apple-darwin23 --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.0 (Homebrew GCC 14.2.0) ]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_030f8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=15.0.0' '-asm_macosx_version_min=15.0' '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_030f8.dir/']
+        ignore line: [ /opt/homebrew/Cellar/gcc/14.2.0/bin/../libexec/gcc/aarch64-apple-darwin23/14/cc1plus -quiet -v -iprefix /opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/ -D__DYNAMIC__ /Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeCXXCompilerABI.cpp -fPIC -quiet -dumpdir CMakeFiles/cmTC_030f8.dir/ -dumpbase CMakeCXXCompilerABI.cpp.cpp -dumpbase-ext .cpp -mmacosx-version-min=15.0.0 -mcpu=apple-m1 -mlittle-endian -mabi=lp64 -version -o /var/folders/yf/1x5vz5zd5pn0v0zjj0xv1bdc0000gn/T//ccbuSvBO.s]
+        ignore line: [GNU C++17 (Homebrew GCC 14.2.0) version 14.2.0 (aarch64-apple-darwin23)]
+        ignore line: [	compiled by GNU C version 14.2.0  GMP version 6.3.0  MPFR version 4.2.1  MPC version 1.3.1  isl version isl-0.27-GMP]
+        ignore line: []
+        ignore line: [warning: MPFR header version 4.2.1 differs from library version 4.2.2.]
+        ignore line: [GGC heuristics: --param ggc-min-expand=100 --param ggc-min-heapsize=131072]
+        ignore line: [ignoring nonexistent directory "/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/../../../../../../aarch64-apple-darwin23/include"]
+        ignore line: [ignoring duplicate directory "/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin23/14/../../../../../../include/c++/14"]
+        ignore line: [ignoring duplicate directory "/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin23/14/../../../../../../include/c++/14/aarch64-apple-darwin23"]
+        ignore line: [ignoring duplicate directory "/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin23/14/../../../../../../include/c++/14/backward"]
+        ignore line: [ignoring duplicate directory "/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin23/14/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/local/include"]
+        ignore line: [ignoring duplicate directory "/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin23/14/include-fixed"]
+        ignore line: [ignoring nonexistent directory "/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/../../../../lib/gcc/current/gcc/aarch64-apple-darwin23/14/../../../../../../aarch64-apple-darwin23/include"]
+        ignore line: [ignoring nonexistent directory "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/Library/Frameworks"]
+        ignore line: [#include "..." search starts here:]
+        ignore line: [#include <...> search starts here:]
+        ignore line: [ /opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/../../../../../../include/c++/14]
+        ignore line: [ /opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/../../../../../../include/c++/14/aarch64-apple-darwin23]
+        ignore line: [ /opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/../../../../../../include/c++/14/backward]
+        ignore line: [ /opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/include]
+        ignore line: [ /opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/include-fixed]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include]
+        ignore line: [ /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/System/Library/Frameworks]
+        ignore line: [End of search list.]
+        ignore line: [Compiler executable checksum: a75830afbe2c14ab123cd4d63804ed46]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_030f8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=15.0.0'  '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_030f8.dir/']
+        ignore line: [ as -arch arm64 -v -mmacosx-version-min=15.0 -o CMakeFiles/cmTC_030f8.dir/CMakeCXXCompilerABI.cpp.o /var/folders/yf/1x5vz5zd5pn0v0zjj0xv1bdc0000gn/T//ccbuSvBO.s]
+        ignore line: [Apple clang version 17.0.0 (clang-1700.6.3.2)]
+        ignore line: [Target: arm64-apple-darwin24.6.0]
+        ignore line: [Thread model: posix]
+        ignore line: [InstalledDir: /Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin]
+        ignore line: [ "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/bin/clang" -cc1as -triple arm64-apple-macosx15.0.0 -target-sdk-version=26.2 -filetype obj -main-file-name ccbuSvBO.s -target-cpu apple-m1 -target-feature +zcm -target-feature +zcz -target-feature +v8.5a -target-feature +aes -target-feature +altnzcv -target-feature +ccdp -target-feature +complxnum -target-feature +crc -target-feature +dotprod -target-feature +fp-armv8 -target-feature +fp16fml -target-feature +fptoint -target-feature +fullfp16 -target-feature +jsconv -target-feature +lse -target-feature +neon -target-feature +pauth -target-feature +perfmon -target-feature +predres -target-feature +ras -target-feature +rcpc -target-feature +rdm -target-feature +sb -target-feature +sha2 -target-feature +sha3 -target-feature +specrestrict -target-feature +ssbs -fdebug-compilation-dir=/Users/brodyroth/VSCode/TextEdit/build/CMakeFiles/CMakeScratch/TryCompile-H109IN -dwarf-debug-producer "Apple clang version 17.0.0 (clang-1700.6.3.2)" -dwarf-version=5 -mrelocation-model pic -o CMakeFiles/cmTC_030f8.dir/CMakeCXXCompilerABI.cpp.o /var/folders/yf/1x5vz5zd5pn0v0zjj0xv1bdc0000gn/T//ccbuSvBO.s]
+        ignore line: [COMPILER_PATH=/opt/homebrew/Cellar/gcc/14.2.0/bin/../libexec/gcc/aarch64-apple-darwin23/14/:/opt/homebrew/Cellar/gcc/14.2.0/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/:/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/:/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'CMakeFiles/cmTC_030f8.dir/CMakeCXXCompilerABI.cpp.o' '-c' '-mmacosx-version-min=15.0.0'  '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'CMakeFiles/cmTC_030f8.dir/CMakeCXXCompilerABI.cpp.']
+        ignore line: [Linking CXX executable cmTC_030f8]
+        ignore line: [/Applications/CMake.app/Contents/bin/cmake -E cmake_link_script CMakeFiles/cmTC_030f8.dir/link.txt --verbose=1]
+        ignore line: [Using built-in specs.]
+        ignore line: [COLLECT_GCC=/opt/homebrew/bin/aarch64-apple-darwin23-g++-14]
+        ignore line: [COLLECT_LTO_WRAPPER=/opt/homebrew/Cellar/gcc/14.2.0/bin/../libexec/gcc/aarch64-apple-darwin23/14/lto-wrapper]
+        ignore line: [Target: aarch64-apple-darwin23]
+        ignore line: [Configured with: ../configure --prefix=/opt/homebrew/opt/gcc --libdir=/opt/homebrew/opt/gcc/lib/gcc/current --disable-nls --enable-checking=release --with-gcc-major-version-only --enable-languages=c c++ objc obj-c++ fortran m2 --program-suffix=-14 --with-gmp=/opt/homebrew/opt/gmp --with-mpfr=/opt/homebrew/opt/mpfr --with-mpc=/opt/homebrew/opt/libmpc --with-isl=/opt/homebrew/opt/isl --with-zstd=/opt/homebrew/opt/zstd --with-pkgversion='Homebrew GCC 14.2.0' --with-bugurl=https://github.com/Homebrew/homebrew-core/issues --with-system-zlib --build=aarch64-apple-darwin23 --with-sysroot=/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk]
+        ignore line: [Thread model: posix]
+        ignore line: [Supported LTO compression algorithms: zlib zstd]
+        ignore line: [gcc version 14.2.0 (Homebrew GCC 14.2.0) ]
+        ignore line: [COMPILER_PATH=/opt/homebrew/Cellar/gcc/14.2.0/bin/../libexec/gcc/aarch64-apple-darwin23/14/:/opt/homebrew/Cellar/gcc/14.2.0/bin/../libexec/gcc/]
+        ignore line: [LIBRARY_PATH=/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/:/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/:/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/../../../]
+        ignore line: [COLLECT_GCC_OPTIONS='-v' '-o' 'cmTC_030f8' '-mmacosx-version-min=15.0.0' '-asm_macosx_version_min=15.0' '-nodefaultexport' '-mcpu=apple-m1' '-mlittle-endian' '-mabi=lp64' '-dumpdir' 'cmTC_030f8.']
+        link line: [ /opt/homebrew/Cellar/gcc/14.2.0/bin/../libexec/gcc/aarch64-apple-darwin23/14/collect2 -demangle -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/ -dynamic -arch arm64 -platform_version macos 15.0.0 0.0 -o cmTC_030f8 -L/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14 -L/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc -L/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/../../.. -lemutls_w -lheapt_w -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_030f8.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lgcc -lSystem -no_compact_unwind -rpath @loader_path -rpath /opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/14 -rpath /opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc -rpath /opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current]
+          arg [/opt/homebrew/Cellar/gcc/14.2.0/bin/../libexec/gcc/aarch64-apple-darwin23/14/collect2] ==> ignore
+          arg [-demangle] ==> ignore
+          arg [-syslibroot] ==> ignore
+          arg [/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/] ==> ignore
+          arg [-dynamic] ==> ignore
+          arg [-arch] ==> ignore
+          arg [arm64] ==> ignore
+          arg [-platform_version] ==> ignore
+          arg [macos] ==> ignore
+          arg [15.0.0] ==> ignore
+          arg [0.0] ==> ignore
+          arg [-o] ==> ignore
+          arg [cmTC_030f8] ==> ignore
+          arg [-L/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14] ==> dir [/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14]
+          arg [-L/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc] ==> dir [/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc]
+          arg [-L/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/../../..] ==> dir [/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/../../..]
+          arg [-lemutls_w] ==> lib [emutls_w]
+          arg [-lheapt_w] ==> lib [heapt_w]
+          arg [-search_paths_first] ==> ignore
+          arg [-headerpad_max_install_names] ==> ignore
+          arg [-v] ==> ignore
+          arg [CMakeFiles/cmTC_030f8.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+          arg [-lstdc++] ==> lib [stdc++]
+          arg [-lgcc] ==> lib [gcc]
+          arg [-lSystem] ==> lib [System]
+          arg [-no_compact_unwind] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [@loader_path] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/14] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc] ==> ignore
+          arg [-rpath] ==> ignore
+          arg [/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current] ==> ignore
+        ignore line: [collect2 version 14.2.0]
+        ignore line: [/usr/bin/ld -demangle -syslibroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/ -dynamic -arch arm64 -platform_version macos 15.0.0 0.0 -o cmTC_030f8 -L/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14 -L/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc -L/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/../../.. -lemutls_w -lheapt_w -search_paths_first -headerpad_max_install_names -v CMakeFiles/cmTC_030f8.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lgcc -lSystem -no_compact_unwind -rpath @loader_path -rpath /opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/14 -rpath /opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc -rpath /opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current]
+        linker tool for 'CXX': /usr/bin/ld
+        Library search paths: [;/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/14;/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc;/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current;/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/lib/swift]
+        Framework search paths: [;/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/System/Library/Frameworks]
+        remove lib [System]
+        collapse library dir [/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14] ==> [/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/14]
+        collapse library dir [/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc] ==> [/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc]
+        collapse library dir [/opt/homebrew/Cellar/gcc/14.2.0/bin/../lib/gcc/current/gcc/aarch64-apple-darwin23/14/../../..] ==> [/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current]
+        collapse library dir [/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/14] ==> [/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/14]
+        collapse library dir [/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc] ==> [/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc]
+        collapse library dir [/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current] ==> [/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/lib] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/lib]
+        collapse library dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/lib/swift] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/lib/swift]
+        collapse framework dir [/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/System/Library/Frameworks] ==> [/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/System/Library/Frameworks]
+        implicit libs: [emutls_w;heapt_w;stdc++;gcc]
+        implicit objs: []
+        implicit dirs: [/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/14;/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc;/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current;/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/lib;/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/lib/swift]
+        implicit fwks: [/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/System/Library/Frameworks]
+      
+      
+  -
+    kind: "message-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/Internal/CMakeDetermineLinkerId.cmake:38 (message)"
+      - "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeDetermineCompilerABI.cmake:299 (cmake_determine_linker_id)"
+      - "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/CMakeTestCXXCompiler.cmake:26 (CMAKE_DETERMINE_COMPILER_ABI)"
+      - "CMakeLists.txt:2 (project)"
+    message: |
+      Running the CXX compiler's linker: "/usr/bin/ld" "-v"
+      @(#)PROGRAM:ld PROJECT:ld-1230.1
+      BUILD 06:36:05 Dec  2 2025
+      configured to support archs: armv6 armv7 armv7s arm64 arm64e arm64_32 i386 x86_64 x86_64h armv6m armv7k armv7m armv7em armv8m.main armv8.1m.main
+      will use ld-classic for: armv6 armv7 armv7s i386 armv6m armv7k armv7m armv7em
+      LTO support using: LLVM version 17.0.0 (static support for 29, runtime is 29)
+      TAPI support using: Apple TAPI version 17.0.0 (tapi-1700.3.8)
+...
+
+---
+events:
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/FindX11.cmake:214 (find_path)"
+      - "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/FindFLTK.cmake:159 (include)"
+      - "CMakeLists.txt:5 (find_package)"
+    mode: "path"
+    variable: "X11_xcb_xkb_INCLUDE_PATH"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "NEVER"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "xcb/xkb.h"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/"
+      - "/opt/homebrew/include/"
+      - "/opt/homebrew/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/"
+      - "/usr/local/include/"
+      - "/usr/local/"
+      - "/usr/include/"
+      - "/usr/"
+      - "/include/"
+      - "/Applications/CMake.app/Contents/include/"
+      - "/Applications/CMake.app/Contents/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/"
+      - "/opt/include/"
+      - "/opt/"
+      - "/sw/include/"
+      - "/sw/"
+      - "/opt/local/include/"
+      - "/opt/local/"
+      - "/usr/include/X11/"
+      - "/Users/brodyroth/Library/Frameworks/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/"
+      - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/"
+      - "/Library/Frameworks/"
+      - "/Network/Library/Frameworks/"
+      - "/System/Library/Frameworks/"
+      - "/usr/pkg/xorg/include/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R7/include/"
+      - "/usr/openwin/include/"
+      - "/usr/openwin/share/include/"
+      - "/opt/graphics/OpenGL/include/"
+      - "/opt/X11/include/"
+    searched_directories:
+      - "/usr/bin/xcb/xkb.h"
+      - "/bin/xcb/xkb.h"
+      - "/usr/sbin/xcb/xkb.h"
+      - "/sbin/xcb/xkb.h"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/xcb/xkb.h"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/xcb/xkb.h"
+      - "/opt/homebrew/include/xcb/xkb.h"
+      - "/opt/homebrew/xcb/xkb.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/xcb/xkb.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/xcb/xkb.h"
+      - "/usr/local/include/xcb/xkb.h"
+      - "/usr/local/xcb/xkb.h"
+      - "/usr/include/xcb/xkb.h"
+      - "/usr/xcb/xkb.h"
+      - "/include/xcb/xkb.h"
+      - "/Applications/CMake.app/Contents/include/xcb/xkb.h"
+      - "/Applications/CMake.app/Contents/xcb/xkb.h"
+      - "/usr/X11R6/include/xcb/xkb.h"
+      - "/usr/X11R6/xcb/xkb.h"
+      - "/usr/pkg/include/xcb/xkb.h"
+      - "/usr/pkg/xcb/xkb.h"
+      - "/opt/include/xcb/xkb.h"
+      - "/opt/xcb/xkb.h"
+      - "/sw/include/xcb/xkb.h"
+      - "/sw/xcb/xkb.h"
+      - "/opt/local/include/xcb/xkb.h"
+      - "/opt/local/xcb/xkb.h"
+      - "/usr/include/X11/xcb/xkb.h"
+      - "/Users/brodyroth/Library/Frameworks/xcb/xkb.h"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks/xcb/xkb.h"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks/xcb/xkb.h"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/xcb/xkb.h"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/xcb/xkb.h"
+      - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/xcb/xkb.h"
+      - "/Library/Frameworks/xcb/xkb.h"
+      - "/Network/Library/Frameworks/xcb/xkb.h"
+      - "/System/Library/Frameworks/xcb/xkb.h"
+      - "/usr/pkg/xorg/include/xcb/xkb.h"
+      - "/usr/X11R6/include/xcb/xkb.h"
+      - "/usr/X11R7/include/xcb/xkb.h"
+      - "/usr/openwin/include/xcb/xkb.h"
+      - "/usr/openwin/share/include/xcb/xkb.h"
+      - "/opt/graphics/OpenGL/include/xcb/xkb.h"
+      - "/opt/X11/include/xcb/xkb.h"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/Applications/CMake.app/Contents"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/FindFLTK.cmake:160 (find_library)"
+      - "CMakeLists.txt:5 (find_package)"
+    mode: "library"
+    variable: "FLTK_MATH_LIBRARY"
+    description: "Path to a library."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "m"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/"
+      - "/opt/homebrew/lib/"
+      - "/opt/homebrew/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/lib/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/"
+      - "/usr/local/lib/"
+      - "/usr/local/"
+      - "/usr/lib/"
+      - "/usr/"
+      - "/Applications/CMake.app/Contents/"
+      - "/opt/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/"
+      - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/"
+      - "/Library/Frameworks/"
+      - "/System/Library/Frameworks/"
+    searched_directories:
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+    found: "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/libm.tbd"
+    search_context:
+      ENV{PATH}:
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/Applications/CMake.app/Contents"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_LIBRARY_PATH:
+        - "/usr/lib/X11"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/FindFLTK.cmake:192 (find_path)"
+      - "CMakeLists.txt:5 (find_package)"
+    mode: "path"
+    variable: "FLTK_DIR"
+    description: "The directory containing FLTKConfig.cmake.  This is either the root of the build tree, or PREFIX/lib/fltk for an installation."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "FLTKConfig.cmake"
+    candidate_directories:
+      - "/usr/lib/fltk/fltk/"
+      - "/usr/lib/fltk/fltk/include/"
+      - "/usr/lib/fltk/lib/fltk/"
+      - "/usr/lib/fltk/lib/fltk/include/"
+      - "/usr/lib/fltk/"
+      - "/lib/fltk/fltk/"
+      - "/lib/fltk/fltk/include/"
+      - "/lib/fltk/lib/fltk/"
+      - "/lib/fltk/lib/fltk/include/"
+      - "/lib/fltk/"
+      - "/usr/bin/fltk/"
+      - "/usr/bin/fltk/include/"
+      - "/usr/bin/lib/fltk/"
+      - "/usr/bin/lib/fltk/include/"
+      - "/usr/bin/"
+      - "/bin/fltk/"
+      - "/bin/fltk/include/"
+      - "/bin/lib/fltk/"
+      - "/bin/lib/fltk/include/"
+      - "/bin/"
+      - "/usr/sbin/fltk/"
+      - "/usr/sbin/fltk/include/"
+      - "/usr/sbin/lib/fltk/"
+      - "/usr/sbin/lib/fltk/include/"
+      - "/usr/sbin/"
+      - "/sbin/fltk/"
+      - "/sbin/fltk/include/"
+      - "/sbin/lib/fltk/"
+      - "/sbin/lib/fltk/include/"
+      - "/sbin/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/fltk/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/fltk/include/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/lib/fltk/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/lib/fltk/include/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/fltk/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/fltk/include/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/fltk/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/fltk/include/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/"
+      - "/opt/homebrew/include/fltk/"
+      - "/opt/homebrew/include/fltk/include/"
+      - "/opt/homebrew/include/lib/fltk/"
+      - "/opt/homebrew/include/lib/fltk/include/"
+      - "/opt/homebrew/include/"
+      - "/opt/homebrew/fltk/"
+      - "/opt/homebrew/fltk/include/"
+      - "/opt/homebrew/lib/fltk/"
+      - "/opt/homebrew/lib/fltk/include/"
+      - "/opt/homebrew/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/fltk/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/fltk/include/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/lib/fltk/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/lib/fltk/include/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/fltk/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/fltk/include/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/lib/fltk/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/lib/fltk/include/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/"
+      - "/usr/local/include/fltk/"
+      - "/usr/local/include/fltk/include/"
+      - "/usr/local/include/lib/fltk/"
+      - "/usr/local/include/lib/fltk/include/"
+      - "/usr/local/include/"
+      - "/usr/local/fltk/"
+      - "/usr/local/fltk/include/"
+      - "/usr/local/lib/fltk/"
+      - "/usr/local/lib/fltk/include/"
+      - "/usr/local/"
+      - "/usr/include/fltk/"
+      - "/usr/include/fltk/include/"
+      - "/usr/include/lib/fltk/"
+      - "/usr/include/lib/fltk/include/"
+      - "/usr/include/"
+      - "/usr/fltk/"
+      - "/usr/fltk/include/"
+      - "/usr/lib/fltk/"
+      - "/usr/lib/fltk/include/"
+      - "/usr/"
+      - "/include/fltk/"
+      - "/include/fltk/include/"
+      - "/include/lib/fltk/"
+      - "/include/lib/fltk/include/"
+      - "/include/"
+      - "/Applications/CMake.app/Contents/include/fltk/"
+      - "/Applications/CMake.app/Contents/include/fltk/include/"
+      - "/Applications/CMake.app/Contents/include/lib/fltk/"
+      - "/Applications/CMake.app/Contents/include/lib/fltk/include/"
+      - "/Applications/CMake.app/Contents/include/"
+      - "/Applications/CMake.app/Contents/fltk/"
+      - "/Applications/CMake.app/Contents/fltk/include/"
+      - "/Applications/CMake.app/Contents/lib/fltk/"
+      - "/Applications/CMake.app/Contents/lib/fltk/include/"
+      - "/Applications/CMake.app/Contents/"
+      - "/usr/X11R6/include/fltk/"
+      - "/usr/X11R6/include/fltk/include/"
+      - "/usr/X11R6/include/lib/fltk/"
+      - "/usr/X11R6/include/lib/fltk/include/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/fltk/"
+      - "/usr/X11R6/fltk/include/"
+      - "/usr/X11R6/lib/fltk/"
+      - "/usr/X11R6/lib/fltk/include/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/include/fltk/"
+      - "/usr/pkg/include/fltk/include/"
+      - "/usr/pkg/include/lib/fltk/"
+      - "/usr/pkg/include/lib/fltk/include/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/fltk/"
+      - "/usr/pkg/fltk/include/"
+      - "/usr/pkg/lib/fltk/"
+      - "/usr/pkg/lib/fltk/include/"
+      - "/usr/pkg/"
+      - "/opt/include/fltk/"
+      - "/opt/include/fltk/include/"
+      - "/opt/include/lib/fltk/"
+      - "/opt/include/lib/fltk/include/"
+      - "/opt/include/"
+      - "/opt/fltk/"
+      - "/opt/fltk/include/"
+      - "/opt/lib/fltk/"
+      - "/opt/lib/fltk/include/"
+      - "/opt/"
+      - "/sw/include/fltk/"
+      - "/sw/include/fltk/include/"
+      - "/sw/include/lib/fltk/"
+      - "/sw/include/lib/fltk/include/"
+      - "/sw/include/"
+      - "/sw/fltk/"
+      - "/sw/fltk/include/"
+      - "/sw/lib/fltk/"
+      - "/sw/lib/fltk/include/"
+      - "/sw/"
+      - "/opt/local/include/fltk/"
+      - "/opt/local/include/fltk/include/"
+      - "/opt/local/include/lib/fltk/"
+      - "/opt/local/include/lib/fltk/include/"
+      - "/opt/local/include/"
+      - "/opt/local/fltk/"
+      - "/opt/local/fltk/include/"
+      - "/opt/local/lib/fltk/"
+      - "/opt/local/lib/fltk/include/"
+      - "/opt/local/"
+      - "/usr/include/X11/fltk/"
+      - "/usr/include/X11/fltk/include/"
+      - "/usr/include/X11/lib/fltk/"
+      - "/usr/include/X11/lib/fltk/include/"
+      - "/usr/include/X11/"
+      - "/Users/brodyroth/Library/Frameworks/fltk/"
+      - "/Users/brodyroth/Library/Frameworks/fltk/include/"
+      - "/Users/brodyroth/Library/Frameworks/lib/fltk/"
+      - "/Users/brodyroth/Library/Frameworks/lib/fltk/include/"
+      - "/Users/brodyroth/Library/Frameworks/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks/fltk/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks/fltk/include/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks/lib/fltk/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks/lib/fltk/include/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks/fltk/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks/fltk/include/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks/lib/fltk/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks/lib/fltk/include/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/fltk/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/fltk/include/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/lib/fltk/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/lib/fltk/include/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/fltk/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/fltk/include/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/lib/fltk/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/lib/fltk/include/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/"
+      - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/fltk/"
+      - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/fltk/include/"
+      - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/lib/fltk/"
+      - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/lib/fltk/include/"
+      - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/"
+      - "/Library/Frameworks/fltk/"
+      - "/Library/Frameworks/fltk/include/"
+      - "/Library/Frameworks/lib/fltk/"
+      - "/Library/Frameworks/lib/fltk/include/"
+      - "/Library/Frameworks/"
+      - "/Network/Library/Frameworks/fltk/"
+      - "/Network/Library/Frameworks/fltk/include/"
+      - "/Network/Library/Frameworks/lib/fltk/"
+      - "/Network/Library/Frameworks/lib/fltk/include/"
+      - "/Network/Library/Frameworks/"
+      - "/System/Library/Frameworks/fltk/"
+      - "/System/Library/Frameworks/fltk/include/"
+      - "/System/Library/Frameworks/lib/fltk/"
+      - "/System/Library/Frameworks/lib/fltk/include/"
+      - "/System/Library/Frameworks/"
+    searched_directories:
+      - "/usr/lib/fltk/fltk/FLTKConfig.cmake"
+      - "/usr/lib/fltk/fltk/include/FLTKConfig.cmake"
+      - "/usr/lib/fltk/lib/fltk/FLTKConfig.cmake"
+      - "/usr/lib/fltk/lib/fltk/include/FLTKConfig.cmake"
+      - "/usr/lib/fltk/FLTKConfig.cmake"
+      - "/lib/fltk/fltk/FLTKConfig.cmake"
+      - "/lib/fltk/fltk/include/FLTKConfig.cmake"
+      - "/lib/fltk/lib/fltk/FLTKConfig.cmake"
+      - "/lib/fltk/lib/fltk/include/FLTKConfig.cmake"
+      - "/lib/fltk/FLTKConfig.cmake"
+      - "/usr/bin/fltk/FLTKConfig.cmake"
+      - "/usr/bin/fltk/include/FLTKConfig.cmake"
+      - "/usr/bin/lib/fltk/FLTKConfig.cmake"
+      - "/usr/bin/lib/fltk/include/FLTKConfig.cmake"
+      - "/usr/bin/FLTKConfig.cmake"
+      - "/bin/fltk/FLTKConfig.cmake"
+      - "/bin/fltk/include/FLTKConfig.cmake"
+      - "/bin/lib/fltk/FLTKConfig.cmake"
+      - "/bin/lib/fltk/include/FLTKConfig.cmake"
+      - "/bin/FLTKConfig.cmake"
+      - "/usr/sbin/fltk/FLTKConfig.cmake"
+      - "/usr/sbin/fltk/include/FLTKConfig.cmake"
+      - "/usr/sbin/lib/fltk/FLTKConfig.cmake"
+      - "/usr/sbin/lib/fltk/include/FLTKConfig.cmake"
+      - "/usr/sbin/FLTKConfig.cmake"
+      - "/sbin/fltk/FLTKConfig.cmake"
+      - "/sbin/fltk/include/FLTKConfig.cmake"
+      - "/sbin/lib/fltk/FLTKConfig.cmake"
+      - "/sbin/lib/fltk/include/FLTKConfig.cmake"
+      - "/sbin/FLTKConfig.cmake"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/fltk/FLTKConfig.cmake"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/fltk/include/FLTKConfig.cmake"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/lib/fltk/FLTKConfig.cmake"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/lib/fltk/include/FLTKConfig.cmake"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/FLTKConfig.cmake"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/fltk/FLTKConfig.cmake"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/fltk/include/FLTKConfig.cmake"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/fltk/FLTKConfig.cmake"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/lib/fltk/include/FLTKConfig.cmake"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/FLTKConfig.cmake"
+      - "/opt/homebrew/include/fltk/FLTKConfig.cmake"
+      - "/opt/homebrew/include/fltk/include/FLTKConfig.cmake"
+      - "/opt/homebrew/include/lib/fltk/FLTKConfig.cmake"
+      - "/opt/homebrew/include/lib/fltk/include/FLTKConfig.cmake"
+      - "/opt/homebrew/include/FLTKConfig.cmake"
+      - "/opt/homebrew/fltk/FLTKConfig.cmake"
+      - "/opt/homebrew/fltk/include/FLTKConfig.cmake"
+      - "/opt/homebrew/lib/fltk/FLTKConfig.cmake"
+      - "/opt/homebrew/lib/fltk/include/FLTKConfig.cmake"
+      - "/opt/homebrew/FLTKConfig.cmake"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/fltk/FLTKConfig.cmake"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/fltk/include/FLTKConfig.cmake"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/lib/fltk/FLTKConfig.cmake"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/lib/fltk/include/FLTKConfig.cmake"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/FLTKConfig.cmake"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/fltk/FLTKConfig.cmake"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/fltk/include/FLTKConfig.cmake"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/lib/fltk/FLTKConfig.cmake"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/lib/fltk/include/FLTKConfig.cmake"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/FLTKConfig.cmake"
+      - "/usr/local/include/fltk/FLTKConfig.cmake"
+      - "/usr/local/include/fltk/include/FLTKConfig.cmake"
+      - "/usr/local/include/lib/fltk/FLTKConfig.cmake"
+      - "/usr/local/include/lib/fltk/include/FLTKConfig.cmake"
+      - "/usr/local/include/FLTKConfig.cmake"
+      - "/usr/local/fltk/FLTKConfig.cmake"
+      - "/usr/local/fltk/include/FLTKConfig.cmake"
+      - "/usr/local/lib/fltk/FLTKConfig.cmake"
+      - "/usr/local/lib/fltk/include/FLTKConfig.cmake"
+      - "/usr/local/FLTKConfig.cmake"
+      - "/usr/include/fltk/FLTKConfig.cmake"
+      - "/usr/include/fltk/include/FLTKConfig.cmake"
+      - "/usr/include/lib/fltk/FLTKConfig.cmake"
+      - "/usr/include/lib/fltk/include/FLTKConfig.cmake"
+      - "/usr/include/FLTKConfig.cmake"
+      - "/usr/fltk/FLTKConfig.cmake"
+      - "/usr/fltk/include/FLTKConfig.cmake"
+      - "/usr/lib/fltk/FLTKConfig.cmake"
+      - "/usr/lib/fltk/include/FLTKConfig.cmake"
+      - "/usr/FLTKConfig.cmake"
+      - "/include/fltk/FLTKConfig.cmake"
+      - "/include/fltk/include/FLTKConfig.cmake"
+      - "/include/lib/fltk/FLTKConfig.cmake"
+      - "/include/lib/fltk/include/FLTKConfig.cmake"
+      - "/include/FLTKConfig.cmake"
+      - "/Applications/CMake.app/Contents/include/fltk/FLTKConfig.cmake"
+      - "/Applications/CMake.app/Contents/include/fltk/include/FLTKConfig.cmake"
+      - "/Applications/CMake.app/Contents/include/lib/fltk/FLTKConfig.cmake"
+      - "/Applications/CMake.app/Contents/include/lib/fltk/include/FLTKConfig.cmake"
+      - "/Applications/CMake.app/Contents/include/FLTKConfig.cmake"
+      - "/Applications/CMake.app/Contents/fltk/FLTKConfig.cmake"
+      - "/Applications/CMake.app/Contents/fltk/include/FLTKConfig.cmake"
+      - "/Applications/CMake.app/Contents/lib/fltk/FLTKConfig.cmake"
+      - "/Applications/CMake.app/Contents/lib/fltk/include/FLTKConfig.cmake"
+      - "/Applications/CMake.app/Contents/FLTKConfig.cmake"
+      - "/usr/X11R6/include/fltk/FLTKConfig.cmake"
+      - "/usr/X11R6/include/fltk/include/FLTKConfig.cmake"
+      - "/usr/X11R6/include/lib/fltk/FLTKConfig.cmake"
+      - "/usr/X11R6/include/lib/fltk/include/FLTKConfig.cmake"
+      - "/usr/X11R6/include/FLTKConfig.cmake"
+      - "/usr/X11R6/fltk/FLTKConfig.cmake"
+      - "/usr/X11R6/fltk/include/FLTKConfig.cmake"
+      - "/usr/X11R6/lib/fltk/FLTKConfig.cmake"
+      - "/usr/X11R6/lib/fltk/include/FLTKConfig.cmake"
+      - "/usr/X11R6/FLTKConfig.cmake"
+      - "/usr/pkg/include/fltk/FLTKConfig.cmake"
+      - "/usr/pkg/include/fltk/include/FLTKConfig.cmake"
+      - "/usr/pkg/include/lib/fltk/FLTKConfig.cmake"
+      - "/usr/pkg/include/lib/fltk/include/FLTKConfig.cmake"
+      - "/usr/pkg/include/FLTKConfig.cmake"
+      - "/usr/pkg/fltk/FLTKConfig.cmake"
+      - "/usr/pkg/fltk/include/FLTKConfig.cmake"
+      - "/usr/pkg/lib/fltk/FLTKConfig.cmake"
+      - "/usr/pkg/lib/fltk/include/FLTKConfig.cmake"
+      - "/usr/pkg/FLTKConfig.cmake"
+      - "/opt/include/fltk/FLTKConfig.cmake"
+      - "/opt/include/fltk/include/FLTKConfig.cmake"
+      - "/opt/include/lib/fltk/FLTKConfig.cmake"
+      - "/opt/include/lib/fltk/include/FLTKConfig.cmake"
+      - "/opt/include/FLTKConfig.cmake"
+      - "/opt/fltk/FLTKConfig.cmake"
+      - "/opt/fltk/include/FLTKConfig.cmake"
+      - "/opt/lib/fltk/FLTKConfig.cmake"
+      - "/opt/lib/fltk/include/FLTKConfig.cmake"
+      - "/opt/FLTKConfig.cmake"
+      - "/sw/include/fltk/FLTKConfig.cmake"
+      - "/sw/include/fltk/include/FLTKConfig.cmake"
+      - "/sw/include/lib/fltk/FLTKConfig.cmake"
+      - "/sw/include/lib/fltk/include/FLTKConfig.cmake"
+      - "/sw/include/FLTKConfig.cmake"
+      - "/sw/fltk/FLTKConfig.cmake"
+      - "/sw/fltk/include/FLTKConfig.cmake"
+      - "/sw/lib/fltk/FLTKConfig.cmake"
+      - "/sw/lib/fltk/include/FLTKConfig.cmake"
+      - "/sw/FLTKConfig.cmake"
+      - "/opt/local/include/fltk/FLTKConfig.cmake"
+      - "/opt/local/include/fltk/include/FLTKConfig.cmake"
+      - "/opt/local/include/lib/fltk/FLTKConfig.cmake"
+      - "/opt/local/include/lib/fltk/include/FLTKConfig.cmake"
+      - "/opt/local/include/FLTKConfig.cmake"
+      - "/opt/local/fltk/FLTKConfig.cmake"
+      - "/opt/local/fltk/include/FLTKConfig.cmake"
+      - "/opt/local/lib/fltk/FLTKConfig.cmake"
+      - "/opt/local/lib/fltk/include/FLTKConfig.cmake"
+      - "/opt/local/FLTKConfig.cmake"
+      - "/usr/include/X11/fltk/FLTKConfig.cmake"
+      - "/usr/include/X11/fltk/include/FLTKConfig.cmake"
+      - "/usr/include/X11/lib/fltk/FLTKConfig.cmake"
+      - "/usr/include/X11/lib/fltk/include/FLTKConfig.cmake"
+      - "/usr/include/X11/FLTKConfig.cmake"
+      - "/Users/brodyroth/Library/Frameworks/fltk/FLTKConfig.cmake"
+      - "/Users/brodyroth/Library/Frameworks/fltk/include/FLTKConfig.cmake"
+      - "/Users/brodyroth/Library/Frameworks/lib/fltk/FLTKConfig.cmake"
+      - "/Users/brodyroth/Library/Frameworks/lib/fltk/include/FLTKConfig.cmake"
+      - "/Users/brodyroth/Library/Frameworks/FLTKConfig.cmake"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks/fltk/FLTKConfig.cmake"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks/fltk/include/FLTKConfig.cmake"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks/lib/fltk/FLTKConfig.cmake"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks/lib/fltk/include/FLTKConfig.cmake"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks/FLTKConfig.cmake"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks/fltk/FLTKConfig.cmake"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks/fltk/include/FLTKConfig.cmake"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks/lib/fltk/FLTKConfig.cmake"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks/lib/fltk/include/FLTKConfig.cmake"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks/FLTKConfig.cmake"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/fltk/FLTKConfig.cmake"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/fltk/include/FLTKConfig.cmake"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/lib/fltk/FLTKConfig.cmake"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/lib/fltk/include/FLTKConfig.cmake"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/FLTKConfig.cmake"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/fltk/FLTKConfig.cmake"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/fltk/include/FLTKConfig.cmake"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/lib/fltk/FLTKConfig.cmake"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/lib/fltk/include/FLTKConfig.cmake"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/FLTKConfig.cmake"
+      - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/fltk/FLTKConfig.cmake"
+      - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/fltk/include/FLTKConfig.cmake"
+      - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/lib/fltk/FLTKConfig.cmake"
+      - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/lib/fltk/include/FLTKConfig.cmake"
+      - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/FLTKConfig.cmake"
+      - "/Library/Frameworks/fltk/FLTKConfig.cmake"
+      - "/Library/Frameworks/fltk/include/FLTKConfig.cmake"
+      - "/Library/Frameworks/lib/fltk/FLTKConfig.cmake"
+      - "/Library/Frameworks/lib/fltk/include/FLTKConfig.cmake"
+      - "/Library/Frameworks/FLTKConfig.cmake"
+      - "/Network/Library/Frameworks/fltk/FLTKConfig.cmake"
+      - "/Network/Library/Frameworks/fltk/include/FLTKConfig.cmake"
+      - "/Network/Library/Frameworks/lib/fltk/FLTKConfig.cmake"
+      - "/Network/Library/Frameworks/lib/fltk/include/FLTKConfig.cmake"
+      - "/Network/Library/Frameworks/FLTKConfig.cmake"
+      - "/System/Library/Frameworks/fltk/FLTKConfig.cmake"
+      - "/System/Library/Frameworks/fltk/include/FLTKConfig.cmake"
+      - "/System/Library/Frameworks/lib/fltk/FLTKConfig.cmake"
+      - "/System/Library/Frameworks/lib/fltk/include/FLTKConfig.cmake"
+      - "/System/Library/Frameworks/FLTKConfig.cmake"
+    found: false
+    search_context:
+      ENV{PATH}:
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/Applications/CMake.app/Contents"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/FindFLTK.cmake:270 (find_program)"
+      - "CMakeLists.txt:5 (find_package)"
+    mode: "program"
+    variable: "FLTK_FLUID_EXECUTABLE"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "fluid"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/bin/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/sbin/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/opt/homebrew/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/bin/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/sbin/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/Applications/CMake.app/Contents/bin/"
+      - "/Applications/CMake.app/Contents/sbin/"
+      - "/Applications/CMake.app/Contents/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+      - "/sw/bin/"
+      - "/sw/sbin/"
+      - "/sw/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/opt/local/"
+      - "/Users/brodyroth/Applications/"
+      - "/Applications/"
+      - "/Applications/Xcode.app/Contents/Applications/"
+      - "/Applications/Xcode.app/Contents/Developer/Applications/"
+      - "/fluid/"
+    searched_directories:
+      - "/usr/bin/fluid"
+      - "/bin/fluid"
+      - "/usr/sbin/fluid"
+      - "/sbin/fluid"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/bin/fluid"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/sbin/fluid"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/fluid"
+    found: "/opt/homebrew/bin/fluid"
+    search_context:
+      ENV{PATH}:
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/Applications/CMake.app/Contents"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_APPBUNDLE_PATH:
+        - "/Users/brodyroth/Applications"
+        - "/Applications"
+        - "/Applications/Xcode.app/Contents/Applications"
+        - "/Applications/Xcode.app/Contents/Developer/Applications"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/FindFLTK.cmake:289 (find_program)"
+      - "CMakeLists.txt:5 (find_package)"
+    mode: "program"
+    variable: "FLTK_CONFIG_SCRIPT"
+    description: "Path to a program."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "fltk-config"
+    candidate_directories:
+      - "/usr/bin/"
+      - "/bin/"
+      - "/usr/sbin/"
+      - "/sbin/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/bin/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/sbin/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/"
+      - "/opt/homebrew/bin/"
+      - "/opt/homebrew/sbin/"
+      - "/opt/homebrew/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/bin/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/sbin/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/"
+      - "/usr/local/bin/"
+      - "/usr/local/sbin/"
+      - "/usr/local/"
+      - "/usr/bin/"
+      - "/usr/sbin/"
+      - "/usr/"
+      - "/bin/"
+      - "/sbin/"
+      - "/Applications/CMake.app/Contents/bin/"
+      - "/Applications/CMake.app/Contents/sbin/"
+      - "/Applications/CMake.app/Contents/"
+      - "/usr/X11R6/bin/"
+      - "/usr/X11R6/sbin/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/bin/"
+      - "/usr/pkg/sbin/"
+      - "/usr/pkg/"
+      - "/opt/bin/"
+      - "/opt/sbin/"
+      - "/opt/"
+      - "/sw/bin/"
+      - "/sw/sbin/"
+      - "/sw/"
+      - "/opt/local/bin/"
+      - "/opt/local/sbin/"
+      - "/opt/local/"
+      - "/Users/brodyroth/Applications/"
+      - "/Applications/"
+      - "/Applications/Xcode.app/Contents/Applications/"
+      - "/Applications/Xcode.app/Contents/Developer/Applications/"
+      - "/opt/homebrew/bin/"
+    searched_directories:
+      - "/usr/bin/fltk-config"
+      - "/bin/fltk-config"
+      - "/usr/sbin/fltk-config"
+      - "/sbin/fltk-config"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/bin/fltk-config"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/sbin/fltk-config"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/fltk-config"
+    found: "/opt/homebrew/bin/fltk-config"
+    search_context:
+      ENV{PATH}:
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/Applications/CMake.app/Contents"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_APPBUNDLE_PATH:
+        - "/Users/brodyroth/Applications"
+        - "/Applications"
+        - "/Applications/Xcode.app/Contents/Applications"
+        - "/Applications/Xcode.app/Contents/Developer/Applications"
+  -
+    kind: "find-v1"
+    backtrace:
+      - "/Applications/CMake.app/Contents/share/cmake-4.2/Modules/FindFLTK.cmake:307 (find_path)"
+      - "CMakeLists.txt:5 (find_package)"
+    mode: "path"
+    variable: "FLTK_INCLUDE_DIR"
+    description: "Path to a file."
+    settings:
+      SearchFramework: "FIRST"
+      SearchAppBundle: "FIRST"
+      CMAKE_FIND_USE_CMAKE_PATH: true
+      CMAKE_FIND_USE_CMAKE_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_SYSTEM_ENVIRONMENT_PATH: true
+      CMAKE_FIND_USE_CMAKE_SYSTEM_PATH: true
+      CMAKE_FIND_USE_INSTALL_PREFIX: true
+    names:
+      - "FL/Fl.h"
+      - "FL/Fl.H"
+    candidate_directories:
+      - "/usr/bin/fltk/"
+      - "/usr/bin/fltk/include/"
+      - "/usr/bin/"
+      - "/bin/fltk/"
+      - "/bin/fltk/include/"
+      - "/bin/"
+      - "/usr/sbin/fltk/"
+      - "/usr/sbin/fltk/include/"
+      - "/usr/sbin/"
+      - "/sbin/fltk/"
+      - "/sbin/fltk/include/"
+      - "/sbin/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/fltk/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/fltk/include/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/fltk/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/fltk/include/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/"
+      - "/opt/homebrew/include/fltk/"
+      - "/opt/homebrew/include/fltk/include/"
+      - "/opt/homebrew/include/"
+      - "/opt/homebrew/fltk/"
+      - "/opt/homebrew/fltk/include/"
+      - "/opt/homebrew/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/fltk/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/fltk/include/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/fltk/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/fltk/include/"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/"
+      - "/usr/local/include/fltk/"
+      - "/usr/local/include/fltk/include/"
+      - "/usr/local/include/"
+      - "/usr/local/fltk/"
+      - "/usr/local/fltk/include/"
+      - "/usr/local/"
+      - "/usr/include/fltk/"
+      - "/usr/include/fltk/include/"
+      - "/usr/include/"
+      - "/usr/fltk/"
+      - "/usr/fltk/include/"
+      - "/usr/"
+      - "/include/fltk/"
+      - "/include/fltk/include/"
+      - "/include/"
+      - "/Applications/CMake.app/Contents/include/fltk/"
+      - "/Applications/CMake.app/Contents/include/fltk/include/"
+      - "/Applications/CMake.app/Contents/include/"
+      - "/Applications/CMake.app/Contents/fltk/"
+      - "/Applications/CMake.app/Contents/fltk/include/"
+      - "/Applications/CMake.app/Contents/"
+      - "/usr/X11R6/include/fltk/"
+      - "/usr/X11R6/include/fltk/include/"
+      - "/usr/X11R6/include/"
+      - "/usr/X11R6/fltk/"
+      - "/usr/X11R6/fltk/include/"
+      - "/usr/X11R6/"
+      - "/usr/pkg/include/fltk/"
+      - "/usr/pkg/include/fltk/include/"
+      - "/usr/pkg/include/"
+      - "/usr/pkg/fltk/"
+      - "/usr/pkg/fltk/include/"
+      - "/usr/pkg/"
+      - "/opt/include/fltk/"
+      - "/opt/include/fltk/include/"
+      - "/opt/include/"
+      - "/opt/fltk/"
+      - "/opt/fltk/include/"
+      - "/opt/"
+      - "/sw/include/fltk/"
+      - "/sw/include/fltk/include/"
+      - "/sw/include/"
+      - "/sw/fltk/"
+      - "/sw/fltk/include/"
+      - "/sw/"
+      - "/opt/local/include/fltk/"
+      - "/opt/local/include/fltk/include/"
+      - "/opt/local/include/"
+      - "/opt/local/fltk/"
+      - "/opt/local/fltk/include/"
+      - "/opt/local/"
+      - "/usr/include/X11/fltk/"
+      - "/usr/include/X11/fltk/include/"
+      - "/usr/include/X11/"
+      - "/Users/brodyroth/Library/Frameworks/fltk/"
+      - "/Users/brodyroth/Library/Frameworks/fltk/include/"
+      - "/Users/brodyroth/Library/Frameworks/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks/fltk/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks/fltk/include/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks/fltk/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks/fltk/include/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/fltk/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/fltk/include/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/fltk/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/fltk/include/"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/"
+      - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/fltk/"
+      - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/fltk/include/"
+      - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/"
+      - "/Library/Frameworks/fltk/"
+      - "/Library/Frameworks/fltk/include/"
+      - "/Library/Frameworks/"
+      - "/Network/Library/Frameworks/fltk/"
+      - "/Network/Library/Frameworks/fltk/include/"
+      - "/Network/Library/Frameworks/"
+      - "/System/Library/Frameworks/fltk/"
+      - "/System/Library/Frameworks/fltk/include/"
+      - "/System/Library/Frameworks/"
+      - "/opt/homebrew/include/fltk/"
+      - "/opt/homebrew/include/fltk/include/"
+      - "/opt/homebrew/include/"
+      - "/opt/homebrew/fltk/"
+      - "/opt/homebrew/fltk/include/"
+      - "/opt/homebrew/"
+      - "/opt/homebrew/Cellar/fltk/1.4.4/include/fltk/"
+      - "/opt/homebrew/Cellar/fltk/1.4.4/include/fltk/include/"
+      - "/opt/homebrew/Cellar/fltk/1.4.4/include/"
+    searched_directories:
+      - "/usr/bin/fltk/FL.framework/Headers/Fl.h"
+      - "/usr/bin/fltk/include/FL.framework/Headers/Fl.h"
+      - "/usr/bin/FL.framework/Headers/Fl.h"
+      - "/bin/fltk/FL.framework/Headers/Fl.h"
+      - "/bin/fltk/include/FL.framework/Headers/Fl.h"
+      - "/bin/FL.framework/Headers/Fl.h"
+      - "/usr/sbin/fltk/FL.framework/Headers/Fl.h"
+      - "/usr/sbin/fltk/include/FL.framework/Headers/Fl.h"
+      - "/usr/sbin/FL.framework/Headers/Fl.h"
+      - "/sbin/fltk/FL.framework/Headers/Fl.h"
+      - "/sbin/fltk/include/FL.framework/Headers/Fl.h"
+      - "/sbin/FL.framework/Headers/Fl.h"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/fltk/FL.framework/Headers/Fl.h"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/fltk/include/FL.framework/Headers/Fl.h"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/FL.framework/Headers/Fl.h"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/fltk/FL.framework/Headers/Fl.h"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/fltk/include/FL.framework/Headers/Fl.h"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/FL.framework/Headers/Fl.h"
+      - "/opt/homebrew/include/fltk/FL.framework/Headers/Fl.h"
+      - "/opt/homebrew/include/fltk/include/FL.framework/Headers/Fl.h"
+      - "/opt/homebrew/include/FL.framework/Headers/Fl.h"
+      - "/opt/homebrew/fltk/FL.framework/Headers/Fl.h"
+      - "/opt/homebrew/fltk/include/FL.framework/Headers/Fl.h"
+      - "/opt/homebrew/FL.framework/Headers/Fl.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/fltk/FL.framework/Headers/Fl.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/fltk/include/FL.framework/Headers/Fl.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/FL.framework/Headers/Fl.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/fltk/FL.framework/Headers/Fl.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/fltk/include/FL.framework/Headers/Fl.h"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/FL.framework/Headers/Fl.h"
+      - "/usr/local/include/fltk/FL.framework/Headers/Fl.h"
+      - "/usr/local/include/fltk/include/FL.framework/Headers/Fl.h"
+      - "/usr/local/include/FL.framework/Headers/Fl.h"
+      - "/usr/local/fltk/FL.framework/Headers/Fl.h"
+      - "/usr/local/fltk/include/FL.framework/Headers/Fl.h"
+      - "/usr/local/FL.framework/Headers/Fl.h"
+      - "/usr/include/fltk/FL.framework/Headers/Fl.h"
+      - "/usr/include/fltk/include/FL.framework/Headers/Fl.h"
+      - "/usr/include/FL.framework/Headers/Fl.h"
+      - "/usr/fltk/FL.framework/Headers/Fl.h"
+      - "/usr/fltk/include/FL.framework/Headers/Fl.h"
+      - "/usr/FL.framework/Headers/Fl.h"
+      - "/include/fltk/FL.framework/Headers/Fl.h"
+      - "/include/fltk/include/FL.framework/Headers/Fl.h"
+      - "/include/FL.framework/Headers/Fl.h"
+      - "/Applications/CMake.app/Contents/include/fltk/FL.framework/Headers/Fl.h"
+      - "/Applications/CMake.app/Contents/include/fltk/include/FL.framework/Headers/Fl.h"
+      - "/Applications/CMake.app/Contents/include/FL.framework/Headers/Fl.h"
+      - "/Applications/CMake.app/Contents/fltk/FL.framework/Headers/Fl.h"
+      - "/Applications/CMake.app/Contents/fltk/include/FL.framework/Headers/Fl.h"
+      - "/Applications/CMake.app/Contents/FL.framework/Headers/Fl.h"
+      - "/usr/X11R6/include/fltk/FL.framework/Headers/Fl.h"
+      - "/usr/X11R6/include/fltk/include/FL.framework/Headers/Fl.h"
+      - "/usr/X11R6/include/FL.framework/Headers/Fl.h"
+      - "/usr/X11R6/fltk/FL.framework/Headers/Fl.h"
+      - "/usr/X11R6/fltk/include/FL.framework/Headers/Fl.h"
+      - "/usr/X11R6/FL.framework/Headers/Fl.h"
+      - "/usr/pkg/include/fltk/FL.framework/Headers/Fl.h"
+      - "/usr/pkg/include/fltk/include/FL.framework/Headers/Fl.h"
+      - "/usr/pkg/include/FL.framework/Headers/Fl.h"
+      - "/usr/pkg/fltk/FL.framework/Headers/Fl.h"
+      - "/usr/pkg/fltk/include/FL.framework/Headers/Fl.h"
+      - "/usr/pkg/FL.framework/Headers/Fl.h"
+      - "/opt/include/fltk/FL.framework/Headers/Fl.h"
+      - "/opt/include/fltk/include/FL.framework/Headers/Fl.h"
+      - "/opt/include/FL.framework/Headers/Fl.h"
+      - "/opt/fltk/FL.framework/Headers/Fl.h"
+      - "/opt/fltk/include/FL.framework/Headers/Fl.h"
+      - "/opt/FL.framework/Headers/Fl.h"
+      - "/sw/include/fltk/FL.framework/Headers/Fl.h"
+      - "/sw/include/fltk/include/FL.framework/Headers/Fl.h"
+      - "/sw/include/FL.framework/Headers/Fl.h"
+      - "/sw/fltk/FL.framework/Headers/Fl.h"
+      - "/sw/fltk/include/FL.framework/Headers/Fl.h"
+      - "/sw/FL.framework/Headers/Fl.h"
+      - "/opt/local/include/fltk/FL.framework/Headers/Fl.h"
+      - "/opt/local/include/fltk/include/FL.framework/Headers/Fl.h"
+      - "/opt/local/include/FL.framework/Headers/Fl.h"
+      - "/opt/local/fltk/FL.framework/Headers/Fl.h"
+      - "/opt/local/fltk/include/FL.framework/Headers/Fl.h"
+      - "/opt/local/FL.framework/Headers/Fl.h"
+      - "/usr/include/X11/fltk/FL.framework/Headers/Fl.h"
+      - "/usr/include/X11/fltk/include/FL.framework/Headers/Fl.h"
+      - "/usr/include/X11/FL.framework/Headers/Fl.h"
+      - "/Users/brodyroth/Library/Frameworks/fltk/FL.framework/Headers/Fl.h"
+      - "/Users/brodyroth/Library/Frameworks/fltk/include/FL.framework/Headers/Fl.h"
+      - "/Users/brodyroth/Library/Frameworks/FL.framework/Headers/Fl.h"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks/fltk/FL.framework/Headers/Fl.h"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks/fltk/include/FL.framework/Headers/Fl.h"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks/FL.framework/Headers/Fl.h"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks/fltk/FL.framework/Headers/Fl.h"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks/fltk/include/FL.framework/Headers/Fl.h"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks/FL.framework/Headers/Fl.h"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/fltk/FL.framework/Headers/Fl.h"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/fltk/include/FL.framework/Headers/Fl.h"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/FL.framework/Headers/Fl.h"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/fltk/FL.framework/Headers/Fl.h"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/fltk/include/FL.framework/Headers/Fl.h"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/FL.framework/Headers/Fl.h"
+      - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/fltk/FL.framework/Headers/Fl.h"
+      - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/fltk/include/FL.framework/Headers/Fl.h"
+      - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/FL.framework/Headers/Fl.h"
+      - "/Library/Frameworks/fltk/FL.framework/Headers/Fl.h"
+      - "/Library/Frameworks/fltk/include/FL.framework/Headers/Fl.h"
+      - "/Library/Frameworks/FL.framework/Headers/Fl.h"
+      - "/Network/Library/Frameworks/fltk/FL.framework/Headers/Fl.h"
+      - "/Network/Library/Frameworks/fltk/include/FL.framework/Headers/Fl.h"
+      - "/Network/Library/Frameworks/FL.framework/Headers/Fl.h"
+      - "/System/Library/Frameworks/fltk/FL.framework/Headers/Fl.h"
+      - "/System/Library/Frameworks/fltk/include/FL.framework/Headers/Fl.h"
+      - "/System/Library/Frameworks/FL.framework/Headers/Fl.h"
+      - "/opt/homebrew/include/fltk/FL.framework/Headers/Fl.h"
+      - "/opt/homebrew/include/fltk/include/FL.framework/Headers/Fl.h"
+      - "/opt/homebrew/include/FL.framework/Headers/Fl.h"
+      - "/opt/homebrew/fltk/FL.framework/Headers/Fl.h"
+      - "/opt/homebrew/fltk/include/FL.framework/Headers/Fl.h"
+      - "/opt/homebrew/FL.framework/Headers/Fl.h"
+      - "/opt/homebrew/Cellar/fltk/1.4.4/include/fltk/FL.framework/Headers/Fl.h"
+      - "/opt/homebrew/Cellar/fltk/1.4.4/include/fltk/include/FL.framework/Headers/Fl.h"
+      - "/opt/homebrew/Cellar/fltk/1.4.4/include/FL.framework/Headers/Fl.h"
+      - "/usr/bin/fltk/FL.framework/Headers/Fl.H"
+      - "/usr/bin/fltk/include/FL.framework/Headers/Fl.H"
+      - "/usr/bin/FL.framework/Headers/Fl.H"
+      - "/bin/fltk/FL.framework/Headers/Fl.H"
+      - "/bin/fltk/include/FL.framework/Headers/Fl.H"
+      - "/bin/FL.framework/Headers/Fl.H"
+      - "/usr/sbin/fltk/FL.framework/Headers/Fl.H"
+      - "/usr/sbin/fltk/include/FL.framework/Headers/Fl.H"
+      - "/usr/sbin/FL.framework/Headers/Fl.H"
+      - "/sbin/fltk/FL.framework/Headers/Fl.H"
+      - "/sbin/fltk/include/FL.framework/Headers/Fl.H"
+      - "/sbin/FL.framework/Headers/Fl.H"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/fltk/FL.framework/Headers/Fl.H"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/fltk/include/FL.framework/Headers/Fl.H"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/FL.framework/Headers/Fl.H"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/fltk/FL.framework/Headers/Fl.H"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/fltk/include/FL.framework/Headers/Fl.H"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/FL.framework/Headers/Fl.H"
+      - "/opt/homebrew/include/fltk/FL.framework/Headers/Fl.H"
+      - "/opt/homebrew/include/fltk/include/FL.framework/Headers/Fl.H"
+      - "/opt/homebrew/include/FL.framework/Headers/Fl.H"
+      - "/opt/homebrew/fltk/FL.framework/Headers/Fl.H"
+      - "/opt/homebrew/fltk/include/FL.framework/Headers/Fl.H"
+      - "/opt/homebrew/FL.framework/Headers/Fl.H"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/fltk/FL.framework/Headers/Fl.H"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/fltk/include/FL.framework/Headers/Fl.H"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/FL.framework/Headers/Fl.H"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/fltk/FL.framework/Headers/Fl.H"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/fltk/include/FL.framework/Headers/Fl.H"
+      - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/FL.framework/Headers/Fl.H"
+      - "/usr/local/include/fltk/FL.framework/Headers/Fl.H"
+      - "/usr/local/include/fltk/include/FL.framework/Headers/Fl.H"
+      - "/usr/local/include/FL.framework/Headers/Fl.H"
+      - "/usr/local/fltk/FL.framework/Headers/Fl.H"
+      - "/usr/local/fltk/include/FL.framework/Headers/Fl.H"
+      - "/usr/local/FL.framework/Headers/Fl.H"
+      - "/usr/include/fltk/FL.framework/Headers/Fl.H"
+      - "/usr/include/fltk/include/FL.framework/Headers/Fl.H"
+      - "/usr/include/FL.framework/Headers/Fl.H"
+      - "/usr/fltk/FL.framework/Headers/Fl.H"
+      - "/usr/fltk/include/FL.framework/Headers/Fl.H"
+      - "/usr/FL.framework/Headers/Fl.H"
+      - "/include/fltk/FL.framework/Headers/Fl.H"
+      - "/include/fltk/include/FL.framework/Headers/Fl.H"
+      - "/include/FL.framework/Headers/Fl.H"
+      - "/Applications/CMake.app/Contents/include/fltk/FL.framework/Headers/Fl.H"
+      - "/Applications/CMake.app/Contents/include/fltk/include/FL.framework/Headers/Fl.H"
+      - "/Applications/CMake.app/Contents/include/FL.framework/Headers/Fl.H"
+      - "/Applications/CMake.app/Contents/fltk/FL.framework/Headers/Fl.H"
+      - "/Applications/CMake.app/Contents/fltk/include/FL.framework/Headers/Fl.H"
+      - "/Applications/CMake.app/Contents/FL.framework/Headers/Fl.H"
+      - "/usr/X11R6/include/fltk/FL.framework/Headers/Fl.H"
+      - "/usr/X11R6/include/fltk/include/FL.framework/Headers/Fl.H"
+      - "/usr/X11R6/include/FL.framework/Headers/Fl.H"
+      - "/usr/X11R6/fltk/FL.framework/Headers/Fl.H"
+      - "/usr/X11R6/fltk/include/FL.framework/Headers/Fl.H"
+      - "/usr/X11R6/FL.framework/Headers/Fl.H"
+      - "/usr/pkg/include/fltk/FL.framework/Headers/Fl.H"
+      - "/usr/pkg/include/fltk/include/FL.framework/Headers/Fl.H"
+      - "/usr/pkg/include/FL.framework/Headers/Fl.H"
+      - "/usr/pkg/fltk/FL.framework/Headers/Fl.H"
+      - "/usr/pkg/fltk/include/FL.framework/Headers/Fl.H"
+      - "/usr/pkg/FL.framework/Headers/Fl.H"
+      - "/opt/include/fltk/FL.framework/Headers/Fl.H"
+      - "/opt/include/fltk/include/FL.framework/Headers/Fl.H"
+      - "/opt/include/FL.framework/Headers/Fl.H"
+      - "/opt/fltk/FL.framework/Headers/Fl.H"
+      - "/opt/fltk/include/FL.framework/Headers/Fl.H"
+      - "/opt/FL.framework/Headers/Fl.H"
+      - "/sw/include/fltk/FL.framework/Headers/Fl.H"
+      - "/sw/include/fltk/include/FL.framework/Headers/Fl.H"
+      - "/sw/include/FL.framework/Headers/Fl.H"
+      - "/sw/fltk/FL.framework/Headers/Fl.H"
+      - "/sw/fltk/include/FL.framework/Headers/Fl.H"
+      - "/sw/FL.framework/Headers/Fl.H"
+      - "/opt/local/include/fltk/FL.framework/Headers/Fl.H"
+      - "/opt/local/include/fltk/include/FL.framework/Headers/Fl.H"
+      - "/opt/local/include/FL.framework/Headers/Fl.H"
+      - "/opt/local/fltk/FL.framework/Headers/Fl.H"
+      - "/opt/local/fltk/include/FL.framework/Headers/Fl.H"
+      - "/opt/local/FL.framework/Headers/Fl.H"
+      - "/usr/include/X11/fltk/FL.framework/Headers/Fl.H"
+      - "/usr/include/X11/fltk/include/FL.framework/Headers/Fl.H"
+      - "/usr/include/X11/FL.framework/Headers/Fl.H"
+      - "/Users/brodyroth/Library/Frameworks/fltk/FL.framework/Headers/Fl.H"
+      - "/Users/brodyroth/Library/Frameworks/fltk/include/FL.framework/Headers/Fl.H"
+      - "/Users/brodyroth/Library/Frameworks/FL.framework/Headers/Fl.H"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks/fltk/FL.framework/Headers/Fl.H"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks/fltk/include/FL.framework/Headers/Fl.H"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks/FL.framework/Headers/Fl.H"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks/fltk/FL.framework/Headers/Fl.H"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks/fltk/include/FL.framework/Headers/Fl.H"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks/FL.framework/Headers/Fl.H"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/fltk/FL.framework/Headers/Fl.H"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/fltk/include/FL.framework/Headers/Fl.H"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks/FL.framework/Headers/Fl.H"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/fltk/FL.framework/Headers/Fl.H"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/fltk/include/FL.framework/Headers/Fl.H"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks/FL.framework/Headers/Fl.H"
+      - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/fltk/FL.framework/Headers/Fl.H"
+      - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/fltk/include/FL.framework/Headers/Fl.H"
+      - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks/FL.framework/Headers/Fl.H"
+      - "/Library/Frameworks/fltk/FL.framework/Headers/Fl.H"
+      - "/Library/Frameworks/fltk/include/FL.framework/Headers/Fl.H"
+      - "/Library/Frameworks/FL.framework/Headers/Fl.H"
+      - "/Network/Library/Frameworks/fltk/FL.framework/Headers/Fl.H"
+      - "/Network/Library/Frameworks/fltk/include/FL.framework/Headers/Fl.H"
+      - "/Network/Library/Frameworks/FL.framework/Headers/Fl.H"
+      - "/System/Library/Frameworks/fltk/FL.framework/Headers/Fl.H"
+      - "/System/Library/Frameworks/fltk/include/FL.framework/Headers/Fl.H"
+      - "/System/Library/Frameworks/FL.framework/Headers/Fl.H"
+      - "/opt/homebrew/include/fltk/FL.framework/Headers/Fl.H"
+      - "/opt/homebrew/include/fltk/include/FL.framework/Headers/Fl.H"
+      - "/opt/homebrew/include/FL.framework/Headers/Fl.H"
+      - "/opt/homebrew/fltk/FL.framework/Headers/Fl.H"
+      - "/opt/homebrew/fltk/include/FL.framework/Headers/Fl.H"
+      - "/opt/homebrew/FL.framework/Headers/Fl.H"
+      - "/opt/homebrew/Cellar/fltk/1.4.4/include/fltk/FL.framework/Headers/Fl.H"
+      - "/opt/homebrew/Cellar/fltk/1.4.4/include/fltk/include/FL.framework/Headers/Fl.H"
+      - "/opt/homebrew/Cellar/fltk/1.4.4/include/FL.framework/Headers/Fl.H"
+      - "/usr/bin/fltk/FL/Fl.h"
+      - "/usr/bin/fltk/include/FL/Fl.h"
+      - "/usr/bin/FL/Fl.h"
+      - "/bin/fltk/FL/Fl.h"
+      - "/bin/fltk/include/FL/Fl.h"
+      - "/bin/FL/Fl.h"
+      - "/usr/sbin/fltk/FL/Fl.h"
+      - "/usr/sbin/fltk/include/FL/Fl.h"
+      - "/usr/sbin/FL/Fl.h"
+      - "/sbin/fltk/FL/Fl.h"
+      - "/sbin/fltk/include/FL/Fl.h"
+      - "/sbin/FL/Fl.h"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/fltk/FL/Fl.h"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/fltk/include/FL/Fl.h"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/include/FL/Fl.h"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/fltk/FL/Fl.h"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/fltk/include/FL/Fl.h"
+      - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr/FL/Fl.h"
+      - "/opt/homebrew/include/fltk/FL/Fl.h"
+      - "/opt/homebrew/include/fltk/include/FL/Fl.h"
+    found: "/opt/homebrew/include/"
+    search_context:
+      ENV{PATH}:
+        - "/usr/bin"
+        - "/bin"
+        - "/usr/sbin"
+        - "/sbin"
+      CMAKE_INSTALL_PREFIX: "/usr/local"
+      CMAKE_SYSTEM_PREFIX_PATH:
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/usr"
+        - "/opt/homebrew"
+        - "/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr"
+        - "/usr/local"
+        - "/usr"
+        - "/"
+        - "/Applications/CMake.app/Contents"
+        - "/usr/local"
+        - "/usr/X11R6"
+        - "/usr/pkg"
+        - "/opt"
+        - "/sw"
+        - "/opt/local"
+      CMAKE_SYSTEM_INCLUDE_PATH:
+        - "/usr/include/X11"
+      CMAKE_SYSTEM_FRAMEWORK_PATH:
+        - "~/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/Network/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX.sdk/System/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/Library/Frameworks"
+        - "/Applications/Xcode.app/Contents/Developer/Library/Frameworks"
+        - "/Library/Frameworks"
+        - "/Network/Library/Frameworks"
+        - "/System/Library/Frameworks"
+...
