@@ -233,11 +233,17 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
   /opt/homebrew/include/FL/Enumerations.H \
   /opt/homebrew/include/FL/Fl.H \
   /opt/homebrew/include/FL/Fl_Bitmap.H \
-  /opt/homebrew/include/FL/Fl_Box.H \
   /opt/homebrew/include/FL/Fl_Button.H \
   /opt/homebrew/include/FL/Fl_Export.H \
   /opt/homebrew/include/FL/Fl_Group.H \
   /opt/homebrew/include/FL/Fl_Image.H \
+  /opt/homebrew/include/FL/Fl_Input.H \
+  /opt/homebrew/include/FL/Fl_Input_.H \
+  /opt/homebrew/include/FL/Fl_Menu_.H \
+  /opt/homebrew/include/FL/Fl_Menu_Bar.H \
+  /opt/homebrew/include/FL/Fl_Menu_Item.H \
+  /opt/homebrew/include/FL/Fl_Multi_Label.H \
+  /opt/homebrew/include/FL/Fl_Multiline_Input.H \
   /opt/homebrew/include/FL/Fl_Widget.H \
   /opt/homebrew/include/FL/Fl_Window.H \
   /opt/homebrew/include/FL/fl_attr.h \
@@ -248,8 +254,6 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
   /opt/homebrew/include/FL/platform_types.h
 
 
-/opt/homebrew/include/FL/platform_types.h:
-
 /opt/homebrew/include/FL/fl_utf8.h:
 
 /opt/homebrew/include/FL/fl_types.h:
@@ -259,6 +263,18 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 /opt/homebrew/include/FL/fl_casts.H:
 
 /opt/homebrew/include/FL/fl_attr.h:
+
+/opt/homebrew/include/FL/Fl_Multiline_Input.H:
+
+/opt/homebrew/include/FL/Fl_Menu_Bar.H:
+
+/opt/homebrew/include/FL/platform_types.h:
+
+/opt/homebrew/include/FL/Fl_Menu_.H:
+
+/opt/homebrew/include/FL/Fl_Input_.H:
+
+/opt/homebrew/include/FL/Fl_Input.H:
 
 /opt/homebrew/include/FL/Fl_Group.H:
 
@@ -480,6 +496,8 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_time_t.h:
 
+/opt/homebrew/include/FL/Fl_Menu_Item.H:
+
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/ext/type_traits.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_sigset_t.h:
@@ -602,8 +620,6 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_pthread/_pthread_types.h:
 
-/opt/homebrew/include/FL/Fl_Box.H:
-
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/memory_resource.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/malloc/_malloc_type.h:
@@ -725,6 +741,8 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/_stdio.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_wchar_t.h:
+
+/opt/homebrew/include/FL/Fl_Multi_Label.H:
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/pstl/pstl_config.h:
 

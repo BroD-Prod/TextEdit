@@ -6,12 +6,14 @@
 		"commands" : 
 		[
 			"add_library",
-			"find_package"
+			"include",
+			"find_package",
+			"set_target_properties"
 		],
 		"files" : 
 		[
-			"/Applications/CMake.app/Contents/share/cmake-4.2/Modules/FindOpenGL.cmake",
-			"/Applications/CMake.app/Contents/share/cmake-4.2/Modules/FindFLTK.cmake",
+			"/opt/homebrew/share/cmake/Modules/FindX11.cmake",
+			"/opt/homebrew/share/cmake/Modules/FindFLTK.cmake",
 			"CMakeLists.txt"
 		],
 		"nodes" : 
@@ -20,7 +22,7 @@
 				"file" : 2
 			},
 			{
-				"command" : 1,
+				"command" : 2,
 				"file" : 2,
 				"line" : 5,
 				"parent" : 0
@@ -32,7 +34,7 @@
 			{
 				"command" : 1,
 				"file" : 1,
-				"line" : 144,
+				"line" : 159,
 				"parent" : 2
 			},
 			{
@@ -42,7 +44,13 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 815,
+				"line" : 1250,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 1251,
 				"parent" : 4
 			}
 		]
@@ -52,15 +60,22 @@
 		"major" : 2,
 		"minor" : 9
 	},
-	"id" : "OpenGL::GL::@6890427a1f51a3e7e1df",
+	"id" : "X11::Xutil::@6890427a1f51a3e7e1df",
 	"imported" : true,
+	"interfaceLinkLibraries" : 
+	[
+		{
+			"backtrace" : 6,
+			"fragment" : "X11::X11"
+		}
+	],
 	"local" : true,
-	"name" : "OpenGL::GL",
+	"name" : "X11::Xutil",
 	"paths" : 
 	{
 		"build" : ".",
 		"source" : "."
 	},
 	"sources" : [],
-	"type" : "UNKNOWN_LIBRARY"
+	"type" : "INTERFACE_LIBRARY"
 }

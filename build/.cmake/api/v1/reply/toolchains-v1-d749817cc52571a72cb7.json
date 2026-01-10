@@ -20,8 +20,7 @@
 						"/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/14",
 						"/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc",
 						"/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current",
-						"/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/lib",
-						"/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/lib/swift"
+						"/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/lib"
 					],
 					"linkFrameworkDirectories" : 
 					[
@@ -65,8 +64,7 @@
 						"/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/14",
 						"/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc",
 						"/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current",
-						"/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/lib",
-						"/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/lib/swift"
+						"/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/lib"
 					],
 					"linkFrameworkDirectories" : 
 					[

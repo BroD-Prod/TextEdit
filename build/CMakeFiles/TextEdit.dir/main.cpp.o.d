@@ -238,4 +238,11 @@ CMakeFiles/TextEdit.dir/main.cpp.o: \
  /opt/homebrew/include/FL/Fl_Window.H /opt/homebrew/include/FL/Fl_Group.H \
  /opt/homebrew/include/FL/Fl_Widget.H /opt/homebrew/include/FL/Fl.H \
  /opt/homebrew/include/FL/Fl_Bitmap.H /opt/homebrew/include/FL/Fl_Image.H \
- /opt/homebrew/include/FL/Fl_Box.H /opt/homebrew/include/FL/Fl_Button.H
+ /opt/homebrew/include/FL/Fl_Button.H \
+ /opt/homebrew/include/FL/Fl_Multiline_Input.H \
+ /opt/homebrew/include/FL/Fl_Input.H /opt/homebrew/include/FL/Fl_Input_.H \
+ /opt/homebrew/include/FL/Fl_Menu_Bar.H \
+ /opt/homebrew/include/FL/Fl_Menu_.H \
+ /opt/homebrew/include/FL/Fl_Menu_Item.H \
+ /opt/homebrew/include/FL/Fl_Widget.H /opt/homebrew/include/FL/Fl_Image.H \
+ /opt/homebrew/include/FL/Fl_Multi_Label.H
