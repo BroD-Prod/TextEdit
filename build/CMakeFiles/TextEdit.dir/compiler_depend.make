@@ -125,8 +125,10 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/wchar.h \
   /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/wctype.h \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/aarch64-apple-darwin23/bits/atomic_word.h \
+  /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/aarch64-apple-darwin23/bits/basic_file.h \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/aarch64-apple-darwin23/bits/c++allocator.h \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/aarch64-apple-darwin23/bits/c++config.h \
+  /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/aarch64-apple-darwin23/bits/c++io.h \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/aarch64-apple-darwin23/bits/c++locale.h \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/aarch64-apple-darwin23/bits/cpu_defines.h \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/aarch64-apple-darwin23/bits/ctype_base.h \
@@ -134,10 +136,13 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/aarch64-apple-darwin23/bits/error_constants.h \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/aarch64-apple-darwin23/bits/gthr-default.h \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/aarch64-apple-darwin23/bits/gthr.h \
+  /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/aarch64-apple-darwin23/bits/messages_members.h \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/aarch64-apple-darwin23/bits/os_defines.h \
+  /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/aarch64-apple-darwin23/bits/time_members.h \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/backward/binders.h \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bit \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/alloc_traits.h \
+  /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/allocated_ptr.h \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/allocator.h \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/basic_ios.h \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/basic_ios.tcc \
@@ -145,6 +150,8 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/basic_string.tcc \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/char_traits.h \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/charconv.h \
+  /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/chrono.h \
+  /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/codecvt.h \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/concept_check.h \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/cpp_type_traits.h \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/cxxabi_forced.h \
@@ -152,6 +159,11 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/exception.h \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/exception_defines.h \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/exception_ptr.h \
+  /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/fs_dir.h \
+  /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/fs_fwd.h \
+  /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/fs_ops.h \
+  /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/fs_path.h \
+  /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/fstream.tcc \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/functexcept.h \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/functional_hash.h \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/hash_bytes.h \
@@ -160,8 +172,11 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/istream.tcc \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/locale_classes.h \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/locale_classes.tcc \
+  /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/locale_conv.h \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/locale_facets.h \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/locale_facets.tcc \
+  /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/locale_facets_nonio.h \
+  /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/locale_facets_nonio.tcc \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/localefwd.h \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/memory_resource.h \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/memoryfwd.h \
@@ -170,12 +185,17 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/new_allocator.h \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/ostream.tcc \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/ostream_insert.h \
+  /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/parse_numbers.h \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/postypes.h \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/predefined_ops.h \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/ptr_traits.h \
+  /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/quoted_string.h \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/range_access.h \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/refwrap.h \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/requires_hosted.h \
+  /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/shared_ptr.h \
+  /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/shared_ptr_base.h \
+  /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/sstream.tcc \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/std_abs.h \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/stl_algobase.h \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/stl_construct.h \
@@ -188,6 +208,7 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/streambuf_iterator.h \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/string_view.tcc \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/stringfwd.h \
+  /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/unique_ptr.h \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/uses_allocator.h \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/uses_allocator_args.h \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/utility.h \
@@ -195,28 +216,40 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/cctype \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/cerrno \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/clocale \
+  /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/codecvt \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/concepts \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/cstddef \
+  /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/cstdint \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/cstdio \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/cstdlib \
+  /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/ctime \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/cwchar \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/cwctype \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/debug/assertions.h \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/debug/debug.h \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/exception \
+  /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/ext/aligned_buffer.h \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/ext/alloc_traits.h \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/ext/atomicity.h \
+  /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/ext/concurrence.h \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/ext/numeric_traits.h \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/ext/string_conversions.h \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/ext/type_traits.h \
+  /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/filesystem \
+  /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/fstream \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/initializer_list \
+  /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/iomanip \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/ios \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/iosfwd \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/iostream \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/istream \
+  /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/limits \
+  /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/locale \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/new \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/ostream \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/pstl/pstl_config.h \
+  /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/ratio \
+  /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/sstream \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/stdexcept \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/streambuf \
   /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/string \
@@ -274,8 +307,6 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 
 /opt/homebrew/include/FL/Fl_Input_.H:
 
-/opt/homebrew/include/FL/Fl_Input.H:
-
 /opt/homebrew/include/FL/Fl_Group.H:
 
 /opt/homebrew/include/FL/Fl_Export.H:
@@ -283,8 +314,6 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 /opt/homebrew/include/FL/Fl_Bitmap.H:
 
 /opt/homebrew/include/FL/Fl.H:
-
-/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/14/include/stdint.h:
 
 /opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/14/include/stddef.h:
 
@@ -300,13 +329,31 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/stdexcept:
 
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/sstream:
+
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/ratio:
+
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/limits:
+
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/iostream:
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/ios:
 
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/iomanip:
+
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/initializer_list:
 
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/fstream:
+
+/opt/homebrew/Cellar/gcc/14.2.0/lib/gcc/current/gcc/aarch64-apple-darwin23/14/include/stdint.h:
+
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/filesystem:
+
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/ext/concurrence.h:
+
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/ext/alloc_traits.h:
+
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/ext/aligned_buffer.h:
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/exception:
 
@@ -316,25 +363,39 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/cwctype:
 
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/ctime:
+
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/cstdio:
+
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/type_traits:
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/concepts:
 
-/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/new:
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/codecvt:
 
-/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/locale_classes.tcc:
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/cctype:
 
-/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/clocale:
+/opt/homebrew/include/FL/Fl_Image.H:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_wint_t.h:
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/uses_allocator_args.h:
 
-/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/version.h:
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/stringfwd.h:
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/streambuf.tcc:
 
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/streambuf:
+
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/stl_pair.h:
+
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/stl_iterator_base_types.h:
 
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/stl_iterator_base_funcs.h:
+
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/stl_iterator.h:
+
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/stl_function.h:
+
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/stl_construct.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_ct_rune_t.h:
 
@@ -344,11 +405,15 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/refwrap.h:
 
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/quoted_string.h:
+
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/predefined_ops.h:
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/istream.tcc:
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/postypes.h:
+
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/parse_numbers.h:
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/ostream_insert.h:
 
@@ -356,15 +421,13 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/locale_facets.h:
 
-/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/string_view.tcc:
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/locale_conv.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_nlink_t.h:
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/new:
 
-/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/streambuf_iterator.h:
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/clocale:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_mbstate_t.h:
-
-/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/locale_classes.h:
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/locale_classes.tcc:
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/ios_base.h:
 
@@ -372,11 +435,15 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/functexcept.h:
 
-/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/stl_iterator.h:
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/fs_dir.h:
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/allocator.h:
 
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/fs_path.h:
+
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/exception_ptr.h:
+
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/cstdint:
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/utility.h:
 
@@ -386,9 +453,19 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/concept_check.h:
 
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/runetype.h:
+
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/codecvt.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/pthread/pthread_impl.h:
+
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/chrono.h:
+
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/basic_ios.h:
 
-/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/stl_construct.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/string.h:
+
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/allocated_ptr.h:
 
 /opt/homebrew/include/FL/Enumerations.H:
 
@@ -396,9 +473,13 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/backward/binders.h:
 
-/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/memoryfwd.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_mbstate_t.h:
 
-/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/cerrno:
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/locale_classes.h:
+
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/uses_allocator.h:
+
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/aarch64-apple-darwin23/bits/messages_members.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/resource.h:
 
@@ -408,13 +489,7 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/aarch64-apple-darwin23/bits/gthr.h:
 
-/opt/homebrew/include/FL/Fl_Image.H:
-
-/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/uses_allocator_args.h:
-
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/aarch64-apple-darwin23/bits/gthr-default.h:
-
-/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/stl_iterator_base_funcs.h:
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/cpp_type_traits.h:
 
@@ -434,8 +509,6 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/wait.h:
 
-/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/uses_allocator.h:
-
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/system_error:
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/cwchar:
@@ -447,6 +520,8 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/aarch64-apple-darwin23/bits/ctype_inline.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/signal.h:
+
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/fs_ops.h:
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/istream:
 
@@ -466,8 +541,6 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_u_int8_t.h:
 
-/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/cstdio:
-
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_blkcnt_t.h:
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/std_abs.h:
@@ -486,6 +559,12 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_u_int16_t.h:
 
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/version.h:
+
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/unique_ptr.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_wint_t.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/machine/types.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_va_list.h:
@@ -501,8 +580,6 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/ext/type_traits.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_sigset_t.h:
-
-/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/stringfwd.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/wctype.h:
 
@@ -530,11 +607,21 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_null.h:
 
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/aarch64-apple-darwin23/bits/c++io.h:
+
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/locale_facets_nonio.tcc:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/AvailabilityVersions.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/_types.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/strings.h:
+
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/string_view.tcc:
+
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/streambuf_iterator.h:
+
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_nlink_t.h:
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/iosfwd:
 
@@ -590,6 +677,10 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_pthread/_pthread_key_t.h:
 
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/cerrno:
+
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/memoryfwd.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_ino_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_pthread/_pthread_condattr_t.h:
@@ -602,6 +693,8 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_endian.h:
 
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/shared_ptr_base.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/machine/endian.h:
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/basic_string.h:
@@ -610,11 +703,7 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/malloc/_ptrcheck.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/string.h:
-
 /Users/brodyroth/VSCode/TextEdit/main.cpp:
-
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/runetype.h:
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/ext/atomicity.h:
 
@@ -625,8 +714,6 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/malloc/_malloc_type.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/machine/_types.h:
-
-/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/cctype:
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/locale_facets.tcc:
 
@@ -640,6 +727,8 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/malloc/_malloc.h:
 
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/aarch64-apple-darwin23/bits/basic_file.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/mach/machine/_structs.h:
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/ptr_traits.h:
@@ -648,9 +737,9 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/aarch64-apple-darwin23/bits/cpu_defines.h:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/arm/types.h:
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/locale:
 
-/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/pthread/pthread_impl.h:
+/Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/arm/types.h:
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/move.h:
 
@@ -669,6 +758,10 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_dev_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/errno.h:
+
+/opt/homebrew/include/FL/Fl_Input.H:
+
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/locale_facets_nonio.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/ctype.h:
 
@@ -704,6 +797,8 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/_types/_uintmax_t.h:
 
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/aarch64-apple-darwin23/bits/time_members.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/stat.h:
 
 /opt/homebrew/include/FL/Fl_Window.H:
@@ -714,9 +809,7 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/_types/_uint8_t.h:
 
-/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/streambuf:
-
-/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/stl_pair.h:
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/sstream.tcc:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/_types/_uint64_t.h:
 
@@ -726,11 +819,15 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_ssize_t.h:
 
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/fs_fwd.h:
+
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/_types/_uint32_t.h:
 
 /opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bit:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_pthread/_pthread_once_t.h:
+
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/shared_ptr.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/AvailabilityInternal.h:
 
@@ -739,6 +836,8 @@ CMakeFiles/TextEdit.dir/main.cpp.o: /Users/brodyroth/VSCode/TextEdit/main.cpp \
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_off_t.h:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/_stdio.h:
+
+/opt/homebrew/Cellar/gcc/14.2.0/include/c++/14/bits/fstream.tcc:
 
 /Library/Developer/CommandLineTools/SDKs/MacOSX14.sdk/usr/include/sys/_types/_wchar_t.h:
 
