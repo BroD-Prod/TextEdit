@@ -7,7 +7,9 @@
 #include <FL/Fl_Multiline_Input.H>
 #include <FL/Fl_Menu_Bar.H>
 
-void save_cb() {
+void save_cb(Fl_Widget*, void* data) {
+    Fl_Multiline_Input* input = static_cast<Fl_Multiline_Input*>(data);
+    const char* text = input->value();
     const char* homeDir = std::getenv("HOME");
     if(!homeDir){
         std::cerr << "Home Environment not Set\n";
@@ -16,7 +18,7 @@ void save_cb() {
     std::filesystem::path filePath = std::string(homeDir) + "/output.txt";
     std::fstream file(filePath, std::ios::out);
     if (file.is_open()) {
-        file << "Sample text to be saved to the file.\n";
+        file << text << std::endl;
         file.close();
         std::cout << "File saved successfully.\n";
     } else {
@@ -32,7 +34,7 @@ int main(int argc, char **argv) {
         {"&File", 0, 0, 0, FL_SUBMENU},
             {"&New", 0, 0, 0},
             {"&Open", 0, 0, 0},
-            {"&Save", 0, (Fl_Callback *)[](Fl_Widget*, void*) {save_cb();}, 0},
+            {"&Save", 0, save_cb, multiline_input, 0},
             {"&Save As...", 0, 0, 0},
             {0},
             {"E&xit", 0, (Fl_Callback *)[](Fl_Widget*, void*) { exit(0); }, 0},
